@@ -120,38 +120,49 @@ ul.menu-content a {
   position: relative;
 }
 
-.card button {
+.button-container {
+  position: relative;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.button-tab {
   position: absolute;
-  left:0;
+  left: 0;
+  bottom: 0;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 0.4rem;
+}
+
+.button-tab:hover {
+  text-decoration: none;
   color: rgb(255, 0, 0);
 }
 
-.tab-us {
-  top: 41.2%;
-  width: 3rem;
+.tab-us,
+.tab-us-2 {
+  width: 4rem;
 }
 
 .tab-health {
-  top: 50.3%;
   width: 5rem;
 }
 
 .tab-world {
-  top: 44%;
   width: 4rem;
 }
 
 .tab-tech {
-  top: 39%;
   width: 10rem;
 }
 
-.tab-us-2 {
-  top: 43.7%;
-}
-
 .tab-insight {
-  top: 32%;
   width: 12rem;
 }
 
@@ -159,15 +170,83 @@ ul.menu-content a {
   color: rgb(6, 30, 238);
 }
 
-.card h5 a {
+.card h5 a,
+.img-box2-body a {
   text-decoration: none;
   color: rgb(0, 0, 0)
 }
 
-.card h5 a:hover {
+.card h5 a:hover,
+.img-box2-body a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(255, 0, 0);
 }
+
+.inner-container-one {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ /* grid-column-gap: 1rem; */
+}
+
+.inner-box1 h5 {
+  margin-top: 1rem;
+  font-size: 1.2rem; 
+}
+
+.inner-box1 {
+  max-width: 10rem; 
+}
+
+.inner-box1 p {
+  font-size: 1rem;
+}
+
+.inner-box1 h5 a:hover,
+.card-box1 .text-muted:hover {
+  text-decoration: none;
+}
+
+.pan-hero,
+.new-york,
+.nature,
+.animals {
+  background-color: rgb(194, 214, 214);
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+.pan-hero {
+  width: 7rem;
+}
+
+.pan-hero:hover,
+.new-york:hover,
+.nature:hover,
+.animals:hover {
+  background-color: rgb(41, 61, 61);
+  color:  rgb(194, 214, 214);
+}
+
+.new-york,
+.nature,
+.animals {
+  width: 5rem;
+}
+
+.inner-box2 {
+  display: grid;
+  grid-template-columns: 0.4fr 3fr;
+  grid-column-gap: 1rem;
+  border-top: 0.2rem solid rgb(240, 245, 245);
+  padding-top: 1rem;
+  min-height: 9rem;
+}
+
+.img-box2 {
+  width: 6rem;
+  height: 6rem;
+}
+
 
 
 
