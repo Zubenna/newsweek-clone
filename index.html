@@ -7,11 +7,175 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <title>Newsweek-clone</title>
   </head>
   <body>
-    
+    <header>
+        <div class="container-fluid row top-menu">
+            <div class="icon-box col-md-4">
+                 <a href="#" class="weather-icon">
+                   <img src="https://g.newsweek.com/img/weather/29.png" alt="weather icon" class="img-fluid">
+                   <p>&nbsp;&nbsp;30° Lagos, NG <i class='fas fa-angle-right'></i></p>
+                 </a>
+                 <p>Mon, Apr 13, 2020</p>  
+            </div>
+            <div class="site-logo col-md-4">
+                 <a href="#"><img src="images/newsweeklogo.png" alt="site-logo"></a>
+            </div>
+            <div class="col-md-4 left-button">
+               <a href="#"><span>SIGN IN</span><button type="button">SUBSCRIBE <i class='fas fa-angle-right'></i></button></a>
+            </div>
+        </div>
+      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation"> 
+            <span class="navbar-toggler-icon"><span>
+        </button>
+            <div class="collapse navbar-collapse" id="menu-content">
+               <ul class="navbar-nav mr-auto menu-content">
+                   <li class="nav-item active">
+                     <a class="nav-link" href="#">U.S.</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">World</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Business</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Tech & Science</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Culture</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Newsgeek</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Sports</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Health</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">The Debate</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Vantage</a>
+                   </li>
+                   <li class="nav-item active">
+                    <a class="nav-link" href="#">Weather</a>
+                   </li>
+                   <li class="nav-item">
+                    <p>Search <i class="fa fa-search"></i></p>
+                   </li>
+                </ul>
+          </div>
+        </nav>
+    </header>
+<main>
+  <article class="row container-fluid article-group-one">
+      <div class="left-col-1 col-md-3">
+        <p class="text-muted">FEATURED STORIES</p>
+          <div class="card no-border">
+            <button class="tab-us">U.S.</button>
+            <a href="#"><img src="images/image-a1.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body no-padding">
+                <h5 class="card-title lead"><a href="#">New York Governor Cuomo Says He'd Defy Trump Ordering Him to Reopen State</a></h5>
+                <p class="card-text text-muted">If Trump ordering him to reopen meant endangering the public health of his state, Cuomo said there'd be a constitutional challenge that would go to the courts.</p>
+              </div>
+          </div>
+          <div class="card no-border">
+            <button class="tab-health">HEALTH</button>
+            <a href="#"><img src="images/image-a2.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body no-padding">
+                <h5 class="card-title lead"><a href="#">Human Trials of Two Coronavirus Vaccines Start in China</a></h5>
+                <p class="card-text text-muted">There is currently no vaccine to prevent COVID-19.</p>
+              </div>
+          </div>
+          <div class="card no-border">
+            <button class="tab-world">WORLD</button>
+            <a href="#"><img src="images/image-a3.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body no-padding">
+                <h5 class="card-title lead"><a href="#">North Korea Fires Suspected Cruise Missiles for First Time Since 2017</a></h5>
+                <p class="card-text text-muted">The rogue state has maintained regular weapons tests this year, despite concerns over coronavirus and ongoing talks with the U.S..</p>
+              </div>
+          </div>
+          <div class="card no-border">
+            <button class="tab-tech">TECH & SCIENCE</button>
+            <a href="#"><img src="images/image-a4.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body no-padding">
+                <h5 class="card-title lead"><a href="#">How Supercomputers Are Being Used to Win the Fight Against Coronavirus</a></h5>
+                <p class="card-text text-muted">Powerful computers capable of ingesting and analyzing vast amounts of raw data are helping to map, track and analyze COVID-19 as the novel coronavirus continues to spread globally.</p>
+              </div>
+          </div>
+          <div class="card no-border">
+            <button class="tab-us-2">U.S.</button>
+            <a href="#"><img src="images/image-a5.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body no-padding">
+                <h5 class="card-title lead"><a href="#">Trump Admin to Spend $15.5 Billion on Aid for Farmers: Report</a></h5>
+                <p class="card-text text-muted">It was reported that a little more than $9 billion of aid would come from funding provided in the $2 trillion coronavirus relief package.</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="tab-insight">SPONSORED INSIGHT</button>
+            <a href="#"><img src="images/image-a6.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body">
+                <h5 class="card-title lead"><a href="#">Weathering the Perfect Storm</a></h5>
+                <p class="card-text text-muted">COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.</p>
+              </div>
+          </div>
+          <div class="card">
+            <a href="#"><img src="images/image-a7.png" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body">
+                <h5 class="card-title lead"><a href="#">World's Best Hospitals 2020</a></h5>
+                <p class="card-text text-muted">Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="tab-insight">SPONSORED INSIGHT</button>
+            <a href="#"><img src="images/image-a8.jpg" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body">
+                <h5 class="card-title lead"><a href="#">Who Leads the Field in Dependency Treatment in 2020?</a></h5>
+                <p class="card-text text-muted">When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
+              </div>
+          </div>                             
+      </div> 
+          <div class="center-col-1 col-md-6">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="right-col-1 col-md-3">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+          </div>
+        </div>
+
+      </article>
+    </main>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
