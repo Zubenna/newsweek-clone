@@ -9,6 +9,11 @@ body {
   height: 100%;
 }
 
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .top-menu {
   background-color: rgb(255, 0, 0);
   height: 6rem;
@@ -171,7 +176,8 @@ ul.menu-content a {
 }
 
 .card h5 a,
-.img-box2-body a {
+.img-box2-body a,
+.right-box1 a {
   text-decoration: none;
   color: rgb(0, 0, 0)
 }
@@ -184,8 +190,7 @@ ul.menu-content a {
 
 .inner-container-one {
  display: grid;
- grid-template-columns: repeat(3, 1fr);
- /* grid-column-gap: 1rem; */
+ grid-template-columns: repeat(3, 0.4fr);
 }
 
 .inner-box1 h5 {
@@ -194,7 +199,7 @@ ul.menu-content a {
 }
 
 .inner-box1 {
-  max-width: 10rem; 
+  max-width: 11rem; 
 }
 
 .inner-box1 p {
@@ -242,10 +247,100 @@ ul.menu-content a {
   min-height: 9rem;
 }
 
-.img-box2 {
-  width: 6rem;
-  height: 6rem;
+.right-box1,
+.right-box2 {
+display: grid;
+grid-template-columns: 0.7fr 2fr;
+grid-column-gap: 0.6rem;
 }
+
+.right-box1 a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.right-box1 a {
+  font-size: 0.9rem;
+}
+
+.right-box1 {
+  min-height: 7rem;
+  border-top: 0.2rem solid rgb(240, 245, 245);
+  padding-top: 1rem;
+}
+
+.img-box3-body p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.199);
+}
+
+.right-col-box2 {
+  margin-top: 2.5rem;
+}
+
+.right-col-box2 hr {
+  border-bottom: 0.1rem solid rgba(179, 178, 182, 0.966); 
+}
+
+/* .right-box2 {
+  border-bottom: 0.3rem solid rgba(179, 178, 182, 0.966); 
+} */
+
+.debate-authour {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.debate-authour h6,
+.debate-authour a { 
+  color: rgb(0, 0, 0);
+}
+
+.debate-authour h6:hover,
+.debate-authour a:hover { 
+  text-decoration: none;
+} 
+
+.right-box2 a,
+.img-right-body2 a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+.img-right-body2 {
+  padding: 0.5rem;
+}
+
+.blue-border {
+  border-top: 0.3rem solid rgba(25, 0, 255, 0.966);
+} 
+
+.red-border {
+  border-top: 0.3rem solid rgb(255, 0, 0);
+}
+
+.img3-box {
+  margin-left: 6rem;
+} 
+
+.img3-box img {
+  width: 30%;
+  height: auto;
+}
+
+
+/* .right-box2 {
+  min-height: 6rem;
+  margin-top: 0.5rem;
+ 
+  border-bottom: 0.3rem solid rgba(243, 238, 238, 0.856);
+} */
+
+.right-col-box2 .debate:hover {
+  text-decoration: none;
+}
+
 
 
 
