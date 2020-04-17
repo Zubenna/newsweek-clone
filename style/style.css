@@ -9,11 +9,6 @@ body {
   height: 100%;
 }
 
-.container-fluid {
-  margin: 0;
-  padding: 0;
-}
-
 .top-menu {
   background-color: rgb(255, 0, 0);
   height: 6rem;
@@ -108,7 +103,7 @@ ul.menu-content a {
 
 .article-group-one {
   margin-top: 0.6rem;
-  padding-bottom: 0;
+  padding: 0 1.5rem;
 }
 
 .no-padding {
@@ -150,25 +145,8 @@ ul.menu-content a {
   color: rgb(255, 0, 0);
 }
 
-.tab-us,
-.tab-us-2 {
-  width: 4rem;
-}
-
-.tab-health {
-  width: 5rem;
-}
-
-.tab-world {
-  width: 4rem;
-}
-
-.tab-tech {
-  width: 10rem;
-}
-
-.tab-insight {
-  width: 12rem;
+.pad-tab {
+  padding: 0.3rem 0.4rem 0 0.4rem;
 }
 
 .card .tab-insight {
@@ -183,7 +161,8 @@ ul.menu-content a {
 }
 
 .card h5 a:hover,
-.img-box2-body a:hover {
+.img-box2-body a:hover,
+.card .topic-text:hover {
   text-decoration: underline;
   text-decoration-color: rgb(255, 0, 0);
 }
@@ -191,6 +170,7 @@ ul.menu-content a {
 .inner-container-one {
  display: grid;
  grid-template-columns: repeat(3, 0.4fr);
+ grid-column-gap: 0.6rem;
 }
 
 .inner-box1 h5 {
@@ -254,7 +234,8 @@ grid-template-columns: 0.7fr 2fr;
 grid-column-gap: 0.6rem;
 }
 
-.right-box1 a:hover {
+.right-box1 a:hover,
+.text-box-3 a:hover {
   color: rgb(255, 0, 0);
 }
 
@@ -281,28 +262,40 @@ grid-column-gap: 0.6rem;
   border-bottom: 0.1rem solid rgba(179, 178, 182, 0.966); 
 }
 
-/* .right-box2 {
-  border-bottom: 0.3rem solid rgba(179, 178, 182, 0.966); 
-} */
-
 .debate-authour {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
+  display: grid;
+  grid-template-columns:70% 30% ;
+}
+
+.debate-call span {
+top: 30%;
+left: 30%
+}
+
+.debate-call {
+margin: 2rem auto;
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
 }
 
 .debate-authour h6,
-.debate-authour a { 
+.debate-authour a,
+.card .topic-text { 
   color: rgb(0, 0, 0);
 }
 
 .debate-authour h6:hover,
-.debate-authour a:hover { 
+.debate-authour a:hover,
+.latest-news-box3:hover { 
   text-decoration: none;
-} 
+}
 
 .right-box2 a,
-.img-right-body2 a{
+.img-right-body2 a,
+.text-box-3 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 0.9rem;
@@ -314,33 +307,115 @@ grid-column-gap: 0.6rem;
 
 .blue-border {
   border-top: 0.3rem solid rgba(25, 0, 255, 0.966);
-} 
+}
 
 .red-border {
   border-top: 0.3rem solid rgb(255, 0, 0);
 }
-
-.img3-box {
-  margin-left: 6rem;
-} 
-
-.img3-box img {
-  width: 30%;
-  height: auto;
-}
-
-
-/* .right-box2 {
-  min-height: 6rem;
-  margin-top: 0.5rem;
  
-  border-bottom: 0.3rem solid rgba(243, 238, 238, 0.856);
-} */
+.img3-box img {
+  max-width: 80%;
+  height: auto;
+  bottom: 1.8rem;
+}
 
 .right-col-box2 .debate:hover {
   text-decoration: none;
 }
 
+.right-box3 {
+  display: grid;
+  grid-template-columns: 0.8fr 2.2fr;
+  grid-column-gap: 0.8rem;
+}
+
+.btm-border {
+  border-bottom: 0.1rem solid rgba(202, 198, 198, 0.575);
+}
+.sign-up {
+  height: 10rem;
+  width: 90%;
+  background-color: rgba(202, 198, 198, 0.575);
+}
+
+.n-logo {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(255, 0, 0);
+}
+
+.n-logo img {
+  width: 100%;
+}
+
+.logo-box {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.logo-box p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.sign-up a {
+  text-decoration: none;  
+}
+
+.sign-up-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.demarcation {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box a:first-child {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+}
+
+.sign-up-box a:last-child {
+  color: rgba(0, 0, 0, 0.932);
+}
+
+.text-box-16 {
+  float: left;
+}
+
+.row {
+  margin: 0;
+}
+
+.full-button {
+  width: 100%;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.full-button:hover {
+  text-decoration: none;
+  background-color: rgba(197, 192, 192, 0.911);
+  color: rgb(0, 0, 0); 
+}
+
+.card span {
+  background-color: rgb(255, 0, 0);
+  color: rgb(245, 245, 220);
+}
+
+.card .article-topic {
+  color: rgb(255, 0, 0);
+}
+
+.card .article-topic:hover {
+  text-decoration: none;
+}
 
 
 
