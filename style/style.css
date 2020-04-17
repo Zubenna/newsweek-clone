@@ -101,7 +101,10 @@ ul.menu-content a {
    color: rgba(56, 53, 53, 0.603);
 }
 
-.article-group-one {
+.article-group-one,
+.article-group-two,
+.article-group-three,
+.article-group-four { 
   margin-top: 0.6rem;
   padding: 0 1.5rem;
 }
@@ -236,7 +239,8 @@ grid-column-gap: 0.6rem;
 }
 
 .right-box1 a:hover,
-.text-box-3 a:hover {
+.text-box-3 a:hover,
+.title-4 a:hover {
   color: rgb(255, 0, 0);
 }
 
@@ -284,13 +288,16 @@ color: rgb(255, 255, 255);
 
 .debate-authour h6,
 .debate-authour a,
-.card .topic-text { 
+.card .topic-text,
+.title-4 a { 
   color: rgb(0, 0, 0);
 }
 
 .debate-authour h6:hover,
 .debate-authour a:hover,
-.latest-news-box3:hover { 
+.latest-news-box3:hover,
+.article-group-four > a:hover,
+.title-4 a:hover { 
   text-decoration: none;
 }
 
@@ -412,7 +419,8 @@ color: rgb(255, 255, 255);
   color: rgb(245, 245, 220);
 }
 
-.card .article-topic {
+.card .article-topic,
+.article-group-four > a { 
   color: rgb(255, 0, 0);
 }
 
@@ -432,6 +440,23 @@ color: rgb(255, 255, 255);
 .in-focus-img img {
   height: 17.5rem;
 }
+
+.right-box4 {
+  display: grid; 
+  grid-template-columns: 0.3fr 0.7fr; 
+  min-height: 7rem;
+  padding-top: 0.6rem;
+}
+
+.top-bottom-border {
+  border-bottom: 0.2rem solid rgb(240, 245, 245);
+  border-top: 0.2rem solid rgb(240, 245, 245);
+}
+
+
+
+
+
 
 
 
