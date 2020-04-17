@@ -297,7 +297,8 @@ color: rgb(255, 255, 255);
 .debate-authour a:hover,
 .latest-news-box3:hover,
 .article-group-four > a:hover,
-.title-4 a:hover { 
+.title-4 a:hover,
+.article-group-five > a:hover { 
   text-decoration: none;
 }
 
@@ -420,7 +421,8 @@ color: rgb(255, 255, 255);
 }
 
 .card .article-topic,
-.article-group-four > a { 
+.article-group-four > a,
+.article-group-five > a { 
   color: rgb(255, 0, 0);
 }
 
