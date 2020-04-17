@@ -162,7 +162,8 @@ ul.menu-content a {
 
 .card h5 a:hover,
 .img-box2-body a:hover,
-.card .topic-text:hover {
+.card .topic-text:hover,
+.card .float-comfort:hover {
   text-decoration: underline;
   text-decoration-color: rgb(255, 0, 0);
 }
@@ -379,7 +380,8 @@ color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
 }
 
-.sign-up-box a:last-child {
+.sign-up-box a:last-child,
+.card .float-comfort {
   color: rgba(0, 0, 0, 0.932);
 }
 
@@ -404,7 +406,8 @@ color: rgb(255, 255, 255);
   color: rgb(0, 0, 0); 
 }
 
-.card span {
+.card span,
+.card .in-focus {
   background-color: rgb(255, 0, 0);
   color: rgb(245, 245, 220);
 }
@@ -415,6 +418,19 @@ color: rgb(255, 255, 255);
 
 .card .article-topic:hover {
   text-decoration: none;
+}
+
+.card .topic-text,
+.full-button {
+  font-size: 1.25rem;
+}
+
+.text img {
+  height: 14.6rem;
+}
+
+.in-focus-img img {
+  height: 17.5rem;
 }
 
 
