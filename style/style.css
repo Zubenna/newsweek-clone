@@ -301,7 +301,8 @@ color: rgb(255, 255, 255);
 .article-group-five > a:hover,
 .article-group-six > a:hover,
 .article-group-seven > a:hover,
-.article-group-eight > a:hover { 
+.article-group-eight > a:hover,
+.article-group-nine > a:hover { 
   text-decoration: none;
 }
 
@@ -428,7 +429,8 @@ color: rgb(255, 255, 255);
 .article-group-five > a,
 .article-group-six > a,
 .article-group-seven > a,
-.article-group-eight > a { 
+.article-group-eight > a,
+.article-group-nine > a { 
   color: rgb(255, 0, 0);
 }
 
@@ -453,12 +455,12 @@ color: rgb(255, 255, 255);
   display: grid; 
   grid-template-columns: 0.3fr 0.7fr; 
   min-height: 7rem;
-  padding-top: 0.6rem;
 }
 
 .top-bottom-border {
   border-bottom: 0.2rem solid rgb(240, 245, 245);
   border-top: 0.2rem solid rgb(240, 245, 245);
+  padding: 0.8rem 0;
 }
 
 
