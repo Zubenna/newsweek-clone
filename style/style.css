@@ -300,7 +300,8 @@ color: rgb(255, 255, 255);
 .title-4 a:hover,
 .article-group-five > a:hover,
 .article-group-six > a:hover,
-.article-group-seven > a:hover { 
+.article-group-seven > a:hover,
+.article-group-eight > a:hover { 
   text-decoration: none;
 }
 
@@ -426,7 +427,8 @@ color: rgb(255, 255, 255);
 .article-group-four > a,
 .article-group-five > a,
 .article-group-six > a,
-.article-group-seven > a { 
+.article-group-seven > a,
+.article-group-eight > a { 
   color: rgb(255, 0, 0);
 }
 
