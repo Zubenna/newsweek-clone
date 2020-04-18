@@ -299,7 +299,8 @@ color: rgb(255, 255, 255);
 .article-group-four > a:hover,
 .title-4 a:hover,
 .article-group-five > a:hover,
-.article-group-six > a:hover { 
+.article-group-six > a:hover,
+.article-group-seven > a:hover { 
   text-decoration: none;
 }
 
@@ -424,7 +425,8 @@ color: rgb(255, 255, 255);
 .card .article-topic,
 .article-group-four > a,
 .article-group-five > a,
-.article-group-six > a { 
+.article-group-six > a,
+.article-group-seven > a { 
   color: rgb(255, 0, 0);
 }
 
