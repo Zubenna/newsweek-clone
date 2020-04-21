@@ -12,6 +12,7 @@ body {
 .top-menu {
   background-color: rgb(255, 0, 0);
   height: 6rem;
+  width: 100%;
 }
 
 .weather-icon {
@@ -74,13 +75,17 @@ body {
   height: 1.8rem; 
 }
 
+form {
+  position: absolute;
+  left: 83%;
+}
+
 .left-button i {
   margin-left: 0.6rem;
   font-size: 1rem;
 }
 
 ul.menu-content {
-  margin-top: 0.3rem;
   font-size: 1.1rem;
   line-height: 0.6rem;
   font-weight: bold;
@@ -198,6 +203,10 @@ ul.menu-content a {
 .inner-box1 h5 a:hover,
 .card-box1 .text-muted:hover {
   text-decoration: none;
+}
+
+.text-box-16 {
+  float: left;
 }
 
 .pan-hero,
@@ -402,10 +411,6 @@ color: rgb(255, 255, 255);
   color: rgba(0, 0, 0, 0.932);
 }
 
-/* .text-box-16 {
-  float: left;
-} */
-
 .row {
   margin: 0;
 }
@@ -516,8 +521,10 @@ color: rgb(255, 255, 255);
 }
 
 .sub-description a:hover,
-.newsletter-sign a {
+.newsletter-sign a,
+footer ul li a:hover {
   text-decoration: none;
+  color: rgb(7, 6, 6);
 }
 
 .subscribe-title,
@@ -567,9 +574,84 @@ color: rgb(255, 255, 255);
 .social-icon a:nth-child(1) {
   background-color: rgba(202, 198, 198, 0.575);
   padding: 0.4rem;
+  border-radius: 0.3rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 567px){
+.border-right {
+  border-right: 0.2rem solid rgba(202, 198, 198);
+  line-height: 1rem;
+}
+
+footer ul li {
+  display: inline-block;
+  line-height: 0.7rem;
+  padding: 0 0.4rem;
+}
+
+footer ul li a {
+  color: rgba(51, 49, 49, 0.925);
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 575.98px) {
+
+  .top-menu {
+    height: 3.6rem;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    position: absolute; 
+    z-index: 1; 
+  }
+
+  .navbar-light {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 75%; 
+    background-color: transparent;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(247, 247, 239);
+    margin-top: 0.6rem;
+    /* width: 8rem; */
+  } 
+
+  .menu-content a {
+    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  form {
+    float: left;
+  }
+
+  .left-button a {
+    float: left;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+    
+  }
+
+  .left-button button {
+    width: 7rem;
+  }
+
+  .menu-box {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+  }
+
+  .site-logo {
+     height: 3.2rem;
+     width: 10rem;
+  }
+
+  .site-logo img {
+    height: auto;
+    width: 100%; 
+  }
+
   .sub-pic-box,
   .newsletter-pic-box {
     display: flex;
@@ -587,7 +669,10 @@ color: rgb(255, 255, 255);
   .social-icon-box {
     grid-template-columns: 1fr;
   }
-  
+
+  .no-display {
+    display: none;
+  }
 }
 
 

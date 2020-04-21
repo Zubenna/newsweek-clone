@@ -14,34 +14,36 @@
   </head>
 <body>
   <header>
-      <div class="container-fluid">
+      <div class="menu-box">
           <div class="row top-menu">
-            <div class="icon-box col-md-4">
+            <div class="icon-box no-display col-lg-4">
                  <a href="#" class="weather-icon">
                    <img src="https://g.newsweek.com/img/weather/29.png" alt="weather icon" class="img-fluid">
                    <p>&nbsp;&nbsp;30° Lagos, NG <i class='fas fa-angle-right'></i></p>
                  </a>
                  <p>Mon, Apr 13, 2020</p>  
             </div>
-            <div class="site-logo col-md-4">
+            <div class="site-logo col-lg-4">
                  <a href="#"><img src="images/newsweeklogo.png" class="img-fluid" alt="site-logo"></a>
             </div>
-            <div class="col-md-4 left-button">
+            <div class="left-button col-lg-4">
                <a href="#"><span>SIGN IN</span><button type="button">SUBSCRIBE <i class='fas fa-angle-right'></i></button></a>
             </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container-fluid">
+         </div>
+         <nav class="navbar navbar-expand-lg navbar-light">
+         <!-- <div class="container-fluid position-relative"> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation"> 
                 <span class="navbar-toggler-icon"><span>
             </button>
-            <div class="collapse navbar-collapse" id="menu-content">
-               <ul class="navbar-nav mr-auto menu-content">
+            <div class="collapse navbar-collapse position-relative" id="menu-content">
+              <form>
+                <p>Search <i class="fa fa-search"></i></p>
+              </form>
+               <ul class="navbar-nav m-0 menu-content">
                    <li class="nav-item active">
                      <a class="nav-link" href="#">U.S.</a>
                    </li>
-                   <li class="nav-item">
+                   <li class="nav-item ">
                     <a class="nav-link" href="#">World</a>
                    </li>
                    <li class="nav-item">
@@ -71,13 +73,11 @@
                    <li class="nav-item">
                     <a class="nav-link" href="#">Weather</a>
                    </li>
-                   <li class="nav-item">
-                    <p>Search <i class="fa fa-search"></i></p>
-                   </li>
                 </ul>
              </div>
-          </div>
-      </nav>
+          <!-- </div> -->
+        </nav>
+    </div>
   </header>`  
 <main>
 <article class="container-fluid article-group-one">
@@ -162,7 +162,7 @@
             </div>
         </div>                             
       </div> 
-    <div class="center-col-1 col-lg-6">
+    <div class="col-sm-12 col-lg-6">
       <p class="text-muted">TOP STORY</p>
         <div class="card no-border">
           <div class="button-container">
@@ -184,7 +184,7 @@
             <p class="text-muted">"As the most powerful military force in the world, with the highest level of combat readiness, the U.S. military's failure to contain the virus has been disappointing," Peking University Center for Maritime Strategy Studies director Hu Bo wrote.</p>
           </div>
       </div>
-      <div class="card-box1">
+      <div class="card-box1 no-display">
         <a href="#" class="text-muted">HEROES OF THE PANDEMIC</a>
           <div class="inner-container-one">
             <div class="card no-border inner-box1">
@@ -1100,6 +1100,29 @@
     </div>
   </div>
 </section>
+<footer class="container-fluid">
+      <ul class="ml-3">
+         <li>Editions:</li>
+         <li class="border-right"><a href="#">U.S. Edition</a></li>
+         <li class="border-right"><a href="#">日本</a></li>
+         <li class="border-right"><a href="#">Pakistan</a></li>
+         <li class="border-right"><a href="#">Polska</a></li>
+         <li><a href="#">România</a></li><br>
+         <li class="border-right"><a href="#">About Us</a></li>
+         <li class="border-right"><a href="#">Corrections</a></li>
+         <li class="border-right"><a href="#">Contact Us</a></li>
+         <li class="border-right"><a href="#">Editorial Guidelines</a></li>
+         <li class="border-right"><a href="#">Advertise</a></li>
+         <li class="border-right"><a href="#">Copyright</a></li>
+         <li class="border-right"><a href="#">Terms & Conditions</a></li>
+         <li class="border-right"><a href="#">Privacy Policy</a></li>
+         <li class="border-right"><a href="#">Cookie Policy</a></li>
+         <li class="border-right"><a href="#">Terms of Sale</a></li>
+         <li class="border-right"><a href="#">Archive</a></li>
+         <li class="border-right"><a href="#">Announcements</a></li><br>
+         <li><a href="#">Consent preferences</a></li>
+      </ul>
+</footer>
 
 </main>
 
