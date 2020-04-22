@@ -114,6 +114,7 @@ ul.menu-content a {
 .menu-content p {
    color: rgba(107, 107, 103, 0.966);
 }
+
 .article-group-one,
 .article-group-two,
 .article-group-three,
@@ -529,7 +530,6 @@ color: rgb(255, 255, 255);
 }
 
 .sub-description a:hover,
-.newsletter-sign a,
 footer ul li a:hover {
   text-decoration: none;
   color: rgb(7, 6, 6);
@@ -558,11 +558,6 @@ footer ul li a:hover {
 
 .social-icon-box p{
   font-size: 0.8rem;
-}
-
-.newsweek-social,
-.subscibe {
-  padding: 0 1.5rem;
 }
 
 .social-icon-box {
@@ -601,13 +596,13 @@ footer ul li a {
   font-size: 0.9rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 575.9px) {
+@media only screen and (min-width: 320px) and (max-width: 575.8px) {
 
   .top-menu {
     height: 3.6rem;
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
-    position: absolute; 
+    grid-template-columns: 0.3fr 1fr;
+    position: absolute;
     z-index: 1; 
   }
 
@@ -615,27 +610,22 @@ footer ul li a {
     position: absolute;
     z-index: 2;
     top: 0;
-    left: 75%; 
+    left: 75%;
     background-color: transparent;
     height: 3.4rem;
   }
 
   .navbar-collapse {
     margin-top: 0.6rem;
-    width: 6rem; 
   }
 
   .nav-item,
   .menu-content p {
-    background-color: rgb(243, 235, 243);
-  }
-
-  .navbar-nav {
-    height: 0.1rem
+    background-color: rgb(243, 236, 243);
   }
 
   .menu-content a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: rgb(0, 0, 0);
   }
 
@@ -643,54 +633,89 @@ footer ul li a {
   .fa-search {
     font-size: 0.8rem;
   }
+
+  .left-button {
+    margin: 0;
+  }
   
   .left-button a {
     float: left;
     margin-top: 0.9rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .left-button button {
-    width: 7rem;
+    width: 5rem;
   }
 
-  .menu-box {
-    display: grid;
-    grid-template-columns: 1fr 0.2fr;
+  .left-button i {
+    margin: 0;
   }
 
-  .sign-up {
-    width: 60%;
+  .left-col-1,
+  .center-col-1,
+  .right-col-1 {
+    margin-top: 2rem;
+  }
+
+  .title-4 h6 {
+    font: 0.3rem;
+    margin-left: 0.8rem;
   }
 
   .site-logo {
      height: 3.2rem;
-     width: 10rem;
+     width: 6rem;
+     padding: 0 0.2rem;
   }
 
   .site-logo img {
+    margin-top: 1.2rem;
     height: auto;
-    width: 100%; 
+    width: 100%;
   }
 
   .center-img {
-    margin-left: 3.5rem
+    width: 62%;
+  }
+
+  .news-mag-1,
+  .news-mag-2 {
+    top: 3rem;
+    width: 100%;
   }
 
   .sub-pic-box {
-    height: 30rem;
+    height: 38rem;
+  }
+  
+  .sub-description a {
+    margin-left: 2rem;
   }
 
   .sub-description {
-    text-align: center; 
-    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .sub-description > p {
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0.3rem 0 0 1.2rem;
+  }
+
+  .sub-description > p:nth-child(even) {
+    font-size: 0.9rem;
+  }
+
+  .newsletter-pic-box {
+    min-height: 22rem;
   }
 
   .sub-pic-box,
   .newsletter-pic-box {
     display: flex;
     flex-direction: column;
-  }
+  } 
 
   .newsletter-box {
     margin-top: 2rem;
@@ -703,20 +728,24 @@ footer ul li a {
 
   .newsletter-sign {
     text-align: center;
-    height: 12rem;
+    height: 2rem;
   }
 
   .newsweek-social {
-    margin-top: 38rem;
+    margin-top: 47rem;
   }
 
   .logo-flex {
-  flex-direction: column;
+    flex-direction: column;
   }
 
   .logo-flex p {
-    margin: 0 23rem 0 0.8rem;
-  } 
+    margin-right: 51%;
+  }
+
+  .news-logo-box {
+    margin: 0;
+  }
 
   .social-icon-box {
     grid-template-columns: 1fr;
@@ -724,11 +753,18 @@ footer ul li a {
 
   .social-icon {
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
   }
 
-  .no-display {
-    display: none;
+  .no-displayxs {
+      display: none;
   }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.8px) {
+
+
 }
 
 
