@@ -764,6 +764,161 @@ footer ul li a {
 
 @media only screen and (min-width: 576px) and (max-width: 767.8px) {
 
+  .top-menu {
+    height: 3rem;
+    grid-template-columns: 0.8fr 1.2fr;
+    position: relative;
+    z-index: 3;
+  }
+
+  main {
+    position: relative;
+    bottom: 4.4rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  .weather-icon {
+    margin-left: 25%;
+  }
+
+  .weather-icon img {
+    position: relative;
+    bottom: 0.3rem;
+    width: 4%;
+  }
+
+  .icon-degree {
+    position: relative;
+    bottom: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .no-display-s {
+    display: none;
+  }
+
+  .navbar-light {
+    z-index: 4;
+    left: 80%;
+    bottom: 3.2rem;
+  }
+
+  .site-logo {
+    width: 8rem;
+    height: 2rem;
+  }
+
+  .site-logo img {
+    position: absolute; 
+    bottom: 4.2rem;
+  }
+
+  .menu-content p {
+    margin-top: 1.6rem;
+    background-color: rgb(243, 236, 243);
+    width: 6.6rem;;
+  }
+
+  .nav-item {
+    background-color: rgb(243, 236, 243);
+    width: 6.6rem;
+  }
+
+  .menu-content a {
+    font-size: 0.8rem;
+  } 
+
+  .left-button {
+    position: absolute;
+    bottom: 0.7rem;
+    right: 20%;
+  }
+
+  .right-box1,
+  .right-box3,
+  .right-box4 { 
+    display: flex;
+  }
+
+  .img-box3-body,
+  .text-box-3 {
+    margin-left: 1rem;
+  }
+
+  .sign-up {
+    width: 50%;
+  }
+ 
+  /*   ---------------------- */
+
+ .center-img {
+   width: 40%;
+   margin-left: 24%;
+ } 
+
+ .news-mag-2 {
+   top: 3rem;
+ }
+
+ .sub-pic-box {
+   text-align: center;
+   height: 30rem;
+ } 
+ 
+ .sub-description a {
+   margin-left: 2rem;
+ }
+
+ .sub-description > p {
+   padding-left: 2rem;
+ }
+
+ .newsletter-pic-box {
+   min-height: 22rem;
+ }
+
+ .sub-pic-box,
+ .newsletter-pic-box {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .newsletter-box {
+   margin-top: 2rem;
+ }
+
+ .news-letter-img img {
+   width: 100%;
+   height: 10rem;
+ }
+ .newsletter-sign {
+   text-align: center;
+   height: 2rem;
+ }
+
+ .newsweek-social {
+   margin-top: 38rem;
+ }
+
+ .logo-flex {
+   flex-direction: column;
+ }
+
+ .logo-flex p {
+   margin-right: 76%;
+ }
+
+ .social-icon-box {
+   grid-template-columns: 1fr;
+ }
+
+ .social-icon {
+   margin-left: 1rem;
+   margin-bottom: 0.5rem;
+ }
 
 }
 
