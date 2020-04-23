@@ -957,194 +957,154 @@ footer ul li a {
 
 @media only screen and (min-width: 768px) and (max-width: 991.8px)  {
 
-   /* .top-menu {
-    height: 3rem;
+ .top-menu {
+    height: 3.8rem;
     position: relative;
-    z-index: 3;
-  } */
+    z-index: 4;
+  } 
 
-  /* main {
+  main {
     position: relative;
     bottom: 1rem;
-  } */
+  }
 
-   /* nav {
+  nav {
     height: 3rem;
-  } */
+  }
 
-  /* .weather-icon {
-    margin-left: 23%;
-  }  */
+  .weather-icon {
+    margin-left: 25%;
+  }
 
-   /* .weather-icon img {
+  .weather-icon img {
     position: absolute;
-    bottom: 1rem;
-    width: 25%;
+    bottom: 0;
+    width: 5.5%;
     height: auto;
-    right: 80%;
-  } */
+    right: 98%;
+  }
 
-  /* .icon-degree {
+  .icon-degree {
     position: absolute;
-    bottom: 1rem;
-    right: 50%;
+    bottom: 0.4rem;
+    right: 94%;
     font-size: 0.8rem;
-  } */
+  }
 
-  /* .icon-box .country,
+  .icon-box .country,
   .icon-box i {
     position: relative;
     font-size: 0.9rem;
-  } */
+  }
 
-  /* .icon-box .country {
-   left: 45%;
-   bottom: 0.7rem;
-  } */
+  .icon-box .country {
+   left: 25%;
+   bottom: 0.3rem;
+  }
 
-  /* .icon-box i {
-    left: 50%;
-    bottom: 0.7rem;
-  } */
+  .icon-box i {
+    left: 25%;
+    bottom: 0.3rem;
+  }
 
-  /* .no-display-s {
-    display: none;
-  } */
-
-  /* .navbar-light {
-    z-index: 4;
+  .navbar-light {
+    z-index: 5;
     top: 0;
     position: absolute;
-    left: 78%;
-  } */
+    left: 82%;
+  }
 
-  /* .site-logo {
-    width: 8rem;
-    height: 2rem;
-  } */
+  .site-logo {
+    width: 10rem;
+    height: 2.1rem;
+  }
 
-  /* .site-logo img {
+  .site-logo img {
     position: absolute; 
-    bottom: 4.2rem;
-    left:0.4rem;
-  } */
+    bottom: 3.7rem;
+    left:0.3rem;
+  }
 
-  /* .menu-content p {
+  .menu-content p {
     margin-top: 1.6rem;
     background-color: rgb(243, 236, 243);
-    font-size: 1rem;
-  } */
-
-  /* .nav-item {
-    background-color: rgb(243, 236, 243);
-    padding: 0;
-  } */
-
-  /* .menu-content a {
-    font-size: 0.7rem;
-  } */
-
-  /* .sign-in-menu {
     font-size: 0.8rem;
   }
-   */
-  /* .left-button button {
-    width: 6rem;
+
+  .nav-item {
+    background-color: rgb(243, 236, 243);
+    padding: 0;
+    font-size: 0.7rem;
+  }
+
+  .left-button button {
+    width: 7rem;
     font-size: 0.8rem;
-  } */
+  }
 
-  /* .left-button {
+  .left-button {
     position: absolute;
-    bottom: 0.7rem;
+    bottom: 0.9rem;
     right: 18%;
-  } */
+  }
 
-  /* .right-box1,
+  .right-box1,
   .right-box3,
   .right-box4 { 
     display: flex;
-  } */
-
-  /* .img-box3-body,
-  .text-box-3 {
-    margin-left: 1rem;
-  } */
-
-  /* .sign-up {
-    width: 50%;
-  } */
-
- /* .center-img {
-   width: 40%;
-   margin-left: 24%;
- }  */
-
- /* .news-mag-2 {
-   top: 3rem;
- } */
-
- /* .sub-pic-box {
-   text-align: center;
-   height: 30rem;
- }  */
- 
- /* .sub-description a {
-   margin-left: 2rem;
- } */
-
- /* .sub-description > p {
-   padding-left: 2rem;
- } */
-
- /* .newsletter-pic-box {
-   min-height: 22rem;
- } */
-
- /* .sub-pic-box,
- .newsletter-pic-box {
-   display: flex;
-   flex-direction: column;
- } */
-
- /* .newsletter-box {
-   margin-top: 2rem;
- } */
-
- /* .news-letter-img img {
-   width: 100%;
-   height: 10rem;
- } */
- 
- /* .newsletter-sign {
-   text-align: center;
-   height: 2rem;
- } */
-
- /* .newsweek-social {
-   margin-top: 38rem;
- } */
-
- /* .logo-flex {
-   flex-direction: column;
- } */
-
- /* .logo-flex p {
-   margin-right: 76%;
- } */
-
- /* .social-icon-box {
-   grid-template-columns: 1fr;
- } */
-
- /* .social-icon {
-   margin-left: 1rem;
-   margin-bottom: 0.5rem;
- } */
-
- /* .display-in-sm {
-    display: inline-block;
   }
-  */
+
+  .img-box3-body,
+  .text-box-3 {
+    margin-left: 1rem; 
+  }
+
+  .full-button {
+    font-size: 0.9rem;
+  }
+
+  .img-box2 {
+    width: 8rem;
+    height: auto;
+  }
+
+  .img-box2 img,
+  .imgbox-resize img {
+    width: 100%;
+  }
+
+  .imgbox-resize {
+    width: 18rem;
+    height: auto;
+  }
+
+ .newsletter-pic-box {
+  display: grid;
+  grid-template-columns: 1fr 2.3fr;
+  
+  }
+
+  .newsletter-box {
+   margin-top: 2rem;
+  }
+
+ .news-letter-img img {
+   width: 100%;
+   height: 12rem;
+  }
+
+  .newsweek-social {
+   margin-top: 16rem;
+  }
+
+ .social-icon-box {
+   display: flex;
+   justify-content: space-between;
+  } 
+
+  .no-display-in-md {
+    display: none;
+  }
 
 }
 
