@@ -595,7 +595,7 @@ footer ul li a {
   color: rgba(51, 49, 49, 0.925);
   font-size: 0.9rem;
 }
-
+/* @media only screen and (min-width: 320px) and (max-width: 575.8px)  */
 @media only screen and (min-width: 320px) and (max-width: 575.8px) {
 
   .top-menu {
@@ -657,6 +657,27 @@ footer ul li a {
   .right-col-1 {
     margin-top: 2rem;
   }
+  .pan-hero {
+    font-size: 0.5rem;
+    width: 4.5rem;
+    padding: 0;
+  }
+
+  .right-box1,
+  .right-box3,
+  .right-box4 {
+    display: flex;
+  }
+
+  .img-box3-body,
+  .text-box-3 {
+    margin-left: 0.6rem;
+  }
+
+  .sign-up {
+    width: 88%;
+    font-size: 0.8rem;
+  }
 
   .title-4 h6 {
     font: 0.3rem;
@@ -707,6 +728,8 @@ footer ul li a {
     font-size: 0.9rem;
   }
 
+  
+
   .newsletter-pic-box {
     min-height: 22rem;
   }
@@ -740,7 +763,7 @@ footer ul li a {
   }
 
   .logo-flex p {
-    margin-right: 51%;
+    margin-right: 72%;
   }
 
   .news-logo-box {
@@ -759,41 +782,39 @@ footer ul li a {
   .no-displayxs {
       display: none;
   }
-
 }
+/* @media only screen and (min-width: 576px) and (max-width: 767.8px)  */
+@media only screen and (min-width: 576px) and (max-width: 767.8px){
 
-@media only screen and (min-width: 576px) and (max-width: 767.8px) {
-
-  .top-menu {
+ .top-menu {
     height: 3rem;
-    grid-template-columns: 0.8fr 1.2fr;
     position: relative;
     z-index: 3;
   }
 
   main {
     position: relative;
-    bottom: 4.4rem;
+    bottom: 1rem;
   }
 
-  nav {
+   nav {
     height: 3rem;
   }
 
   .weather-icon {
-    margin-left: 25%;
-  }
+    margin-left: 23%;
+  } 
 
-  .weather-icon img {
+   .weather-icon img {
     position: relative;
-    bottom: 0.3rem;
-    width: 4%;
+    width: 5%;
+    bottom: 0.5rem;
   }
 
   .icon-degree {
     position: relative;
-    bottom: 0.9rem;
     font-size: 0.8rem;
+    bottom: 0.9rem;
   }
 
   .no-display-s {
@@ -802,8 +823,9 @@ footer ul li a {
 
   .navbar-light {
     z-index: 4;
-    left: 80%;
-    bottom: 3.2rem;
+    top: 0;
+    position: absolute;
+    left: 78%;
   }
 
   .site-logo {
@@ -814,27 +836,39 @@ footer ul li a {
   .site-logo img {
     position: absolute; 
     bottom: 4.2rem;
+    left:0.4rem;
   }
 
   .menu-content p {
     margin-top: 1.6rem;
     background-color: rgb(243, 236, 243);
-    width: 6.6rem;;
+    font-size: 0.9rem;
+    width: 5.8rem;
   }
 
   .nav-item {
     background-color: rgb(243, 236, 243);
-    width: 6.6rem;
+    padding: 0;
+    width: 5.8rem;
   }
 
   .menu-content a {
+    font-size: 0.7rem;
+  }
+
+  .sign-in-menu {
     font-size: 0.8rem;
-  } 
+  }
+  
+  .left-button button {
+    width: 6.5rem;
+    font-size: 0.8rem;
+  }
 
   .left-button {
     position: absolute;
     bottom: 0.7rem;
-    right: 20%;
+    right: 18%;
   }
 
   .right-box1,
@@ -851,8 +885,6 @@ footer ul li a {
   .sign-up {
     width: 50%;
   }
- 
-  /*   ---------------------- */
 
  .center-img {
    width: 40%;
@@ -908,7 +940,7 @@ footer ul li a {
  }
 
  .logo-flex p {
-   margin-right: 76%;
+   margin-right: 74%;
  }
 
  .social-icon-box {
@@ -919,9 +951,202 @@ footer ul li a {
    margin-left: 1rem;
    margin-bottom: 0.5rem;
  }
-
 }
 
+/* @media only screen and (min-width: 768px) and (max-width: 767.8px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991.8px)  {
+
+   /* .top-menu {
+    height: 3rem;
+    position: relative;
+    z-index: 3;
+  } */
+
+  /* main {
+    position: relative;
+    bottom: 1rem;
+  } */
+
+   /* nav {
+    height: 3rem;
+  } */
+
+  /* .weather-icon {
+    margin-left: 23%;
+  }  */
+
+   /* .weather-icon img {
+    position: absolute;
+    bottom: 1rem;
+    width: 25%;
+    height: auto;
+    right: 80%;
+  } */
+
+  /* .icon-degree {
+    position: absolute;
+    bottom: 1rem;
+    right: 50%;
+    font-size: 0.8rem;
+  } */
+
+  /* .icon-box .country,
+  .icon-box i {
+    position: relative;
+    font-size: 0.9rem;
+  } */
+
+  /* .icon-box .country {
+   left: 45%;
+   bottom: 0.7rem;
+  } */
+
+  /* .icon-box i {
+    left: 50%;
+    bottom: 0.7rem;
+  } */
+
+  /* .no-display-s {
+    display: none;
+  } */
+
+  /* .navbar-light {
+    z-index: 4;
+    top: 0;
+    position: absolute;
+    left: 78%;
+  } */
+
+  /* .site-logo {
+    width: 8rem;
+    height: 2rem;
+  } */
+
+  /* .site-logo img {
+    position: absolute; 
+    bottom: 4.2rem;
+    left:0.4rem;
+  } */
+
+  /* .menu-content p {
+    margin-top: 1.6rem;
+    background-color: rgb(243, 236, 243);
+    font-size: 1rem;
+  } */
+
+  /* .nav-item {
+    background-color: rgb(243, 236, 243);
+    padding: 0;
+  } */
+
+  /* .menu-content a {
+    font-size: 0.7rem;
+  } */
+
+  /* .sign-in-menu {
+    font-size: 0.8rem;
+  }
+   */
+  /* .left-button button {
+    width: 6rem;
+    font-size: 0.8rem;
+  } */
+
+  /* .left-button {
+    position: absolute;
+    bottom: 0.7rem;
+    right: 18%;
+  } */
+
+  /* .right-box1,
+  .right-box3,
+  .right-box4 { 
+    display: flex;
+  } */
+
+  /* .img-box3-body,
+  .text-box-3 {
+    margin-left: 1rem;
+  } */
+
+  /* .sign-up {
+    width: 50%;
+  } */
+
+ /* .center-img {
+   width: 40%;
+   margin-left: 24%;
+ }  */
+
+ /* .news-mag-2 {
+   top: 3rem;
+ } */
+
+ /* .sub-pic-box {
+   text-align: center;
+   height: 30rem;
+ }  */
+ 
+ /* .sub-description a {
+   margin-left: 2rem;
+ } */
+
+ /* .sub-description > p {
+   padding-left: 2rem;
+ } */
+
+ /* .newsletter-pic-box {
+   min-height: 22rem;
+ } */
+
+ /* .sub-pic-box,
+ .newsletter-pic-box {
+   display: flex;
+   flex-direction: column;
+ } */
+
+ /* .newsletter-box {
+   margin-top: 2rem;
+ } */
+
+ /* .news-letter-img img {
+   width: 100%;
+   height: 10rem;
+ } */
+ 
+ /* .newsletter-sign {
+   text-align: center;
+   height: 2rem;
+ } */
+
+ /* .newsweek-social {
+   margin-top: 38rem;
+ } */
+
+ /* .logo-flex {
+   flex-direction: column;
+ } */
+
+ /* .logo-flex p {
+   margin-right: 76%;
+ } */
+
+ /* .social-icon-box {
+   grid-template-columns: 1fr;
+ } */
+
+ /* .social-icon {
+   margin-left: 1rem;
+   margin-bottom: 0.5rem;
+ } */
+
+ /* .display-in-sm {
+    display: inline-block;
+  }
+  */
+
+}
 
 
 
