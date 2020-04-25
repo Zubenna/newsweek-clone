@@ -59,25 +59,22 @@ main {
   margin-top: 1rem;
 }
 
-.left-button a {
-  float: right;
-  margin-top: 3.4rem;
+.right-button {
+  margin-top: 3rem;
+  text-align: right;
+  font-family: "Roboto Condensed",sans-serif; 
+}
+
+.right-button .subscribe-btn {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  color:rgb(255, 0, 0);
   text-decoration: none;
 }
 
-.left-button span {
-  color:  rgb(255, 255, 255);
-  font-family: "Roboto Condensed",sans-serif;
-  font-weight: bold;
-  padding-right: 1rem;
-}
-
-.left-button button {
-  background-color:  rgb(255, 255, 255);
-  color: #ff0000;
-  border: none;
-  width: 9rem;
-  height: 1.8rem; 
+.right-button .sign-in-menu {
+color:  rgb(255, 255, 255);
+text-decoration: none;
 }
 
 .navbar-nav {
@@ -95,11 +92,6 @@ main {
   height: 0;
   border-top: 0.8rem solid rgb(255, 0, 0);;
   border-left: 0.8rem solid transparent;
-}
-
-.left-button i {
-  margin-left: 0.6rem;
-  font-size: 0.7rem;
 }
 
 .menu-search {
@@ -654,22 +646,9 @@ footer ul li a {
     color: rgb(0, 0, 0);
   }
 
-  .left-button {
-    margin: 0;
-  }
-  
-  .left-button a {
-    float: left;
-    margin-top: 0.9rem;
-    font-size: 0.7rem;
-  }
-
-  .left-button button {
-    width: 5rem;
-  }
-
-  .left-button i {
-    margin: 0;
+  .right-button {
+  margin-top: 1rem;
+  text-align: left;
   }
 
   .left-col-1,
@@ -705,8 +684,8 @@ footer ul li a {
   }
 
   .site-logo {
-     height: 3.2rem;
-     width: 6rem;
+     height: 3.4rem;
+     width: 7rem;
      padding: 0 0.2rem;
   }
 
@@ -717,7 +696,7 @@ footer ul li a {
   }
 
   .center-img {
-    width: 62%;
+    width: 58%;
   }
 
   .news-mag-1,
@@ -727,7 +706,7 @@ footer ul li a {
   }
 
   .sub-pic-box {
-    height: 38rem;
+    height: 40rem;
   }
   
   .sub-description a {
@@ -874,15 +853,10 @@ footer ul li a {
     font-size: 0.8rem;
   }
   
-  .left-button button {
-    width: 6.5rem;
-    font-size: 0.8rem;
-  }
-
-  .left-button {
-    position: absolute;
-    bottom: 0.7rem;
-    right: 18%;
+  .right-button {
+    position: relative;
+    right: 20%;
+    bottom: 8.6rem;
   }
 
   .right-box1,
@@ -966,8 +940,6 @@ footer ul li a {
    margin-bottom: 0.5rem;
  }
 }
-
-/* @media only screen and (min-width: 768px) and (max-width: 767.8px) */
 
 @media only screen and (min-width: 768px) and (max-width: 991.8px){
 
@@ -1055,15 +1027,9 @@ footer ul li a {
     font-size: 0.7rem;
   }
 
-  .left-button button {
-    width: 7rem;
-    font-size: 0.8rem;
-  }
-
-  .left-button {
-    position: absolute;
-    bottom: 0.9rem;
-    right: 18%;
+  .right-button {
+    right: 20%;
+    bottom: 8.4rem;
   }
 
   .text span,
