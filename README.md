@@ -25,13 +25,15 @@ This project is a clone of the Newsweek.com [newsweek.com](https://www.newsweek.
 - CSS Grid
 
 ## Live Demo
-[Live Demo Link]() hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/newsweek-clone/ab9e5b48ecd8f57a54b5a09541ce7291cebdbfd2/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 - https://fontawesome.com/icons
+- https://stackpath.bootstrapcdn.com/bootstrap/4.4.1
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0
 
 ## Steps For Installation
-- After cloning this repo, git clone [repo](https://github.com/Zubenna/nextweb-clone/tree/feature-branch), cd into nextweb-clone folder.
+- After cloning this repo, git clone [repo](https://github.com/Zubenna/newsweek-clone/tree/feature-branch), cd into newsweek-clone folder.
 - Open the index.html file in your favourite browser, and that's it!!!
 
 ## Author
@@ -47,7 +49,6 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Hat tip to anyone whose code was used
 - Inspiration, etc
 
 
