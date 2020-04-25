@@ -15,6 +15,11 @@ body {
   width: 100%;
 }
 
+main {
+  position: relative;
+  bottom: 1rem;
+}
+
 .weather-icon {
   display: flex;
 }
@@ -80,16 +85,16 @@ body {
 }
 
 .rectangle {
-  height: 1.5rem;
-  width: 5rem;
+  height: 0.8rem;
+  width: 3rem;
   background-color: rgb(255, 0, 0);
 }
 
 .triangle {
   width: 0;
   height: 0;
-  border-top: 1.53rem solid rgb(255, 0, 0);;
-  border-left: 1.53rem solid transparent;
+  border-top: 0.8rem solid rgb(255, 0, 0);;
+  border-left: 0.8rem solid transparent;
 }
 
 .left-button i {
@@ -97,8 +102,19 @@ body {
   font-size: 0.7rem;
 }
 
+.menu-search {
+  left: 86%;
+  top: 0.4rem;
+}
+
+.menu-content {
+  width: 92%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 ul.menu-content {
-  font-size: 1.1rem;
+  font-size: 1.2vw;
   line-height: 0.6rem;
   font-weight: bold;
   font-family: "Roboto Condensed",sans-serif;
@@ -107,12 +123,15 @@ ul.menu-content {
 
 ul.menu-content a {
   border-left: 0.01rem solid rgba(56, 53, 53, 0.603);
-  margin-left: 0.4rem;
   color: rgb(15, 15, 15) !important;
 }
 
 .menu-content p {
    color: rgba(107, 107, 103, 0.966);
+}
+
+.menu-content i{
+  font-size: 0.6rem;
 }
 
 .article-group-one,
@@ -147,7 +166,8 @@ ul.menu-content a {
   width: 100%;
 }
 
-.card img {
+.card img,
+.test-x img {
   width: 100%;
   height: auto;
 }
@@ -472,7 +492,8 @@ color: rgb(255, 255, 255);
 
 .right-box4 {
   display: grid; 
-  grid-template-columns: 0.3fr 0.7fr; 
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-column-gap: 0.4rem; 
   min-height: 7rem;
 }
 
@@ -487,8 +508,7 @@ color: rgb(255, 255, 255);
 
 .sub-pic-box {
   display: grid;
-  grid-template-columns: 0.4fr 0.7fr;
-  grid-column-gap: 1rem;
+  grid-template-columns: 0.5fr 0.4fr;
   height: 18rem;
   background-color: rgb(240, 245, 245);
 }
@@ -595,7 +615,7 @@ footer ul li a {
   color: rgba(51, 49, 49, 0.925);
   font-size: 0.9rem;
 }
-/* @media only screen and (min-width: 320px) and (max-width: 575.8px)  */
+
 @media only screen and (min-width: 320px) and (max-width: 575.8px) {
 
   .top-menu {
@@ -604,6 +624,11 @@ footer ul li a {
     grid-template-columns: 0.3fr 1fr;
     position: absolute;
     z-index: 1; 
+  }
+
+  main {
+    position: relative;
+    top: 1rem;
   }
 
   .navbar-light {
@@ -616,7 +641,7 @@ footer ul li a {
   }
 
   .navbar-collapse {
-    margin-top: 0.6rem;
+    margin-top: 11rem;
   }
 
   .nav-item,
@@ -627,11 +652,6 @@ footer ul li a {
   .menu-content a {
     font-size: 0.7rem;
     color: rgb(0, 0, 0);
-  }
-
-  .menu-content p,
-  .fa-search {
-    font-size: 0.8rem;
   }
 
   .left-button {
@@ -675,7 +695,7 @@ footer ul li a {
   }
 
   .sign-up {
-    width: 88%;
+    width: 70%;
     font-size: 0.8rem;
   }
 
@@ -728,8 +748,6 @@ footer ul li a {
     font-size: 0.9rem;
   }
 
-  
-
   .newsletter-pic-box {
     min-height: 22rem;
   }
@@ -763,7 +781,7 @@ footer ul li a {
   }
 
   .logo-flex p {
-    margin-right: 72%;
+    margin-right: 70%;
   }
 
   .news-logo-box {
@@ -783,7 +801,7 @@ footer ul li a {
       display: none;
   }
 }
-/* @media only screen and (min-width: 576px) and (max-width: 767.8px)  */
+
 @media only screen and (min-width: 576px) and (max-width: 767.8px){
 
  .top-menu {
@@ -795,6 +813,10 @@ footer ul li a {
   main {
     position: relative;
     bottom: 1rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 10rem;
   }
 
    nav {
@@ -839,16 +861,8 @@ footer ul li a {
     left:0.4rem;
   }
 
-  .menu-content p {
-    margin-top: 1.6rem;
-    background-color: rgb(243, 236, 243);
-    font-size: 0.9rem;
-    width: 5.8rem;
-  }
-
   .nav-item {
     background-color: rgb(243, 236, 243);
-    padding: 0;
     width: 5.8rem;
   }
 
@@ -955,7 +969,7 @@ footer ul li a {
 
 /* @media only screen and (min-width: 768px) and (max-width: 767.8px) */
 
-@media only screen and (min-width: 768px) and (max-width: 991.8px)  {
+@media only screen and (min-width: 768px) and (max-width: 991.8px){
 
  .top-menu {
     height: 3.8rem;
@@ -970,6 +984,10 @@ footer ul li a {
 
   nav {
     height: 3rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 10.5rem;
   }
 
   .weather-icon {
@@ -1048,24 +1066,44 @@ footer ul li a {
     right: 18%;
   }
 
-  .right-box1,
-  .right-box3,
-  .right-box4 { 
-    display: flex;
+  .text span,
+  .text .article-topic {
+    font-size: 1.55vw;
   }
 
-  .img-box3-body,
-  .text-box-3 {
-    margin-left: 1rem; 
+  .text .article-topic {
+    margin-left: 0.3rem !important;
   }
 
   .full-button {
-    font-size: 0.9rem;
+    font-size: 1.6vw;
   }
 
   .img-box2 {
     width: 8rem;
     height: auto;
+  }
+
+  .pad-float {
+    margin-right: 0.7rem;
+  }
+
+  .right-box4,
+  .right-box3,
+  .right-box1,
+  .img-box3-body {
+    display: flex;
+  }
+
+  .title-4,
+  .text-box-3,
+  .img-box3-body,
+  .img-right-body1 {
+    margin-left: 0.6rem;
+  }
+
+  .img-box3-body {
+    flex-direction: column;
   }
 
   .img-box2 img,
@@ -1076,6 +1114,16 @@ footer ul li a {
   .imgbox-resize {
     width: 18rem;
     height: auto;
+  }
+
+  .pan-hero {
+    font-size: 0.7rem;
+    width: 5.5rem;
+    padding: 0.2rem;
+  }
+
+  .sub-description {
+    margin-left: 0.6rem;
   }
 
  .newsletter-pic-box {
