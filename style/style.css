@@ -235,12 +235,6 @@ ul.menu-content a {
   color: rgb(255, 0, 0);
 }
 
-footer ul li a:hover
-.sub-description a:hover {
-  text-decoration: none;
-  color: rgb(7, 6, 6);
-}
-
 .debate-authour h6:hover,
 .debate-authour a:hover,
 .latest-news-box3:hover,
@@ -252,14 +246,6 @@ footer ul li a:hover
 .article-group-eight > a:hover,
 .article-group-nine > a:hover {
   text-decoration: none;
-}
-
-.pad-tab {
-  padding: 0.3rem 0.4rem 0 0.4rem;
-}
-
-.card .tab-insight {
-  color: rgb(6, 30, 238);
 }
 
 .right-box1 a:hover,
@@ -280,11 +266,6 @@ footer ul li a:hover
   color: rgba(0, 0, 0, 0.932);
 }
 
-.card .topic-text,
-.full-button {
-  font-size: 1.25rem;
-}
-
 .social-icon a:hover {
   color: rgba(17, 20, 206, 0.932);
 }
@@ -301,6 +282,30 @@ footer ul li a:hover
 .card .float-comfort:hover {
   text-decoration: underline;
   text-decoration-color: rgb(255, 0, 0);
+}
+
+.inner-box1 h5 a:hover,
+.card-box1 .text-muted:hover {
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+.sub-description a:hover {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+}
+
+.pad-tab {
+  padding: 0.3rem 0.4rem 0 0.4rem;
+}
+
+.card .tab-insight {
+  color: rgb(6, 30, 238);
+}
+
+.card .topic-text,
+.full-button {
+  font-size: 1.25rem;
 }
 
 .inner-container-one {
@@ -320,11 +325,6 @@ footer ul li a:hover
 
 .inner-box1 p {
   font-size: 1rem;
-}
-
-.inner-box1 h5 a:hover,
-.card-box1 .text-muted:hover {
-  text-decoration: none;
 }
 
 .text-box-inner {
