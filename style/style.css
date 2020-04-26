@@ -235,8 +235,8 @@ ul.menu-content a {
   color: rgb(255, 0, 0);
 }
 
-.sub-description a:hover,
-footer ul li a:hover {
+footer ul li a:hover
+.sub-description a:hover {
   text-decoration: none;
   color: rgb(7, 6, 6);
 }
@@ -569,7 +569,7 @@ footer ul li a:hover {
 }
 
 .news-letter-img img {
-  height: 18rem;;
+  height: 18rem;
 }
 
 .subscribe-title,
