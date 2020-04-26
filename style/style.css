@@ -199,6 +199,10 @@ ul.menu-content a {
   padding: 0;
 }
 
+.container-xl {
+  padding: 0;
+}
+
 .no-border {
   border: none;
 }
@@ -507,10 +511,6 @@ footer ul li a:hover,
   text-decoration: none;
 }
 
-.text img {
-  height: 14.6rem;
-}
-
 .in-focus-img img {
   height: 17.5rem;
 }
@@ -609,7 +609,7 @@ footer ul li {
   padding: 0 0.4rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 575.8px) {
+@media only screen and (max-width: 575.98px) {
   .top-menu {
     height: 3.6rem;
     display: grid;
@@ -782,7 +782,7 @@ footer ul li {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767.8px) {
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .top-menu {
     height: 3rem;
     position: relative;
@@ -942,7 +942,7 @@ footer ul li {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991.8px) {
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
   .top-menu {
     height: 3.8rem;
     position: relative;
