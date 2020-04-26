@@ -230,6 +230,12 @@ ul.menu-content a {
   padding-top: 0.4rem;
 }
 
+footer ul li a:hover,
+.sub-description a:hover {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+}
+
 .button-tab:hover {
   text-decoration: none;
   color: rgb(255, 0, 0);
@@ -276,6 +282,11 @@ ul.menu-content a {
   border-radius: 0.3rem;
 }
 
+.card .topic-text,
+.full-button {
+  font-size: 1.25rem;
+}
+
 .img-box2-body a:hover,
 .card h5 a:hover,
 .card .topic-text:hover,
@@ -289,23 +300,12 @@ ul.menu-content a {
   text-decoration: none;
 }
 
-footer ul li a:hover,
-.sub-description a:hover {
-  text-decoration: none;
-  color: rgb(7, 6, 6);
-}
-
 .pad-tab {
   padding: 0.3rem 0.4rem 0 0.4rem;
 }
 
 .card .tab-insight {
   color: rgb(6, 30, 238);
-}
-
-.card .topic-text,
-.full-button {
-  font-size: 1.25rem;
 }
 
 .inner-container-one {
