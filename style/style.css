@@ -32,12 +32,12 @@ main {
 .icon-box a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
 }
 
 .icon-box p {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0;
   padding-top: 0.3rem;
 }
@@ -62,7 +62,7 @@ main {
 .right-button {
   margin-top: 3rem;
   text-align: right;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .right-button .subscribe-btn {
@@ -122,15 +122,15 @@ main {
   justify-content: space-evenly;
 }
 
-ul .menu-content {
+ul.menu-content {
   font-size: 1.2vw;
   line-height: 0.6rem;
   font-weight: bold;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   border-bottom: 0.02rem solid rgba(56, 53, 53, 0.603);
 }
 
-ul .menu-content a {
+ul.menu-content a {
   border-left: 0.01rem solid rgba(56, 53, 53, 0.603);
   color: rgb(15, 15, 15) !important;
 }
@@ -196,6 +196,13 @@ ul .menu-content a {
   color: rgb(255, 0, 0);
 }
 
+.card h5 a,
+.img-box2-body a,
+.right-box1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 .debate-authour h6:hover,
 .debate-authour a:hover,
 .latest-news-box3:hover,
@@ -215,13 +222,6 @@ ul .menu-content a {
 
 .card .tab-insight {
   color: rgb(6, 30, 238);
-}
-
-.card h5 a,
-.img-box2-body a,
-.right-box1 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
 }
 
 .card h5 a:hover,
@@ -334,7 +334,7 @@ ul .menu-content a {
 
 .debate-authour {
   display: grid;
-  grid-template-columns:70% 30%;
+  grid-template-columns: 70% 30%;
 }
 
 .debate-call span {
@@ -610,7 +610,6 @@ footer ul li a {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575.8px) {
-
   .top-menu {
     height: 3.6rem;
     display: grid;
@@ -657,6 +656,7 @@ footer ul li a {
   .right-col-1 {
     margin-top: 2rem;
   }
+
   .pan-hero {
     font-size: 0.5rem;
     width: 4.5rem;
@@ -709,7 +709,7 @@ footer ul li a {
   .sub-pic-box {
     height: 40rem;
   }
-  
+
   .sub-description a {
     margin-left: 2rem;
   }
@@ -783,7 +783,6 @@ footer ul li a {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.8px) {
-
   .top-menu {
     height: 3rem;
     position: relative;
@@ -853,7 +852,7 @@ footer ul li a {
   .sign-in-menu {
     font-size: 0.8rem;
   }
-  
+
   .right-button {
     position: relative;
     right: 20%;
@@ -888,7 +887,7 @@ footer ul li a {
     text-align: center;
     height: 30rem;
   }
-  
+
   .sub-description a {
     margin-left: 2rem;
   }
@@ -915,6 +914,7 @@ footer ul li a {
     width: 100%;
     height: 10rem;
   }
+
   .newsletter-sign {
     text-align: center;
     height: 2rem;
@@ -943,7 +943,6 @@ footer ul li a {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.8px) {
-
   .top-menu {
     height: 3.8rem;
     position: relative;
