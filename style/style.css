@@ -29,6 +29,17 @@ main {
   color: rgb(255, 255, 255);
 }
 
+footer ul li a {
+  color: rgba(51, 49, 49, 0.925);
+  font-size: 0.9rem;
+}
+
+.sub-description a,
+.newsletter-sign a {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
 .icon-box a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -126,12 +137,6 @@ main {
   justify-content: space-evenly;
 }
 
-sub-description a,
-.newsletter-sign a {
-  background-color: rgb(255, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
 .sign-up a {
   text-decoration: none;
 }
@@ -144,9 +149,14 @@ sub-description a,
   font-size: 0.9rem;
 }
 
+.social-icon a {
+  text-decoration: none;
+  color: rgba(34, 33, 33, 0.685);
+}
+
+.right-box1 a,
 .img-box2-body a,
-.card h5 a,
-.right-box1 a {
+.card h5 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -225,6 +235,12 @@ ul.menu-content a {
   color: rgb(255, 0, 0);
 }
 
+.sub-description a:hover,
+footer ul li a:hover {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+}
+
 .debate-authour h6:hover,
 .debate-authour a:hover,
 .latest-news-box3:hover,
@@ -269,10 +285,14 @@ ul.menu-content a {
   font-size: 1.25rem;
 }
 
-.sub-description a:hover,
-footer ul li a:hover {
-  text-decoration: none;
-  color: rgb(7, 6, 6);
+.social-icon a:hover {
+  color: rgba(17, 20, 206, 0.932);
+}
+
+.social-icon a:nth-child(1) {
+  background-color: rgba(202, 198, 198, 0.575);
+  padding: 0.4rem;
+  border-radius: 0.3rem;
 }
 
 .img-box2-body a:hover,
@@ -578,21 +598,6 @@ footer ul li a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-.social-icon a {
-  text-decoration: none;
-  color: rgba(34, 33, 33, 0.685);
-}
-
-.social-icon a:hover {
-  color: rgba(17, 20, 206, 0.932);
-}
-
-.social-icon a:nth-child(1) {
-  background-color: rgba(202, 198, 198, 0.575);
-  padding: 0.4rem;
-  border-radius: 0.3rem;
-}
-
 .border-right {
   border-right: 0.2rem solid rgba(202, 198, 198);
   line-height: 1rem;
@@ -602,11 +607,6 @@ footer ul li {
   display: inline-block;
   line-height: 0.7rem;
   padding: 0 0.4rem;
-}
-
-footer ul li a {
-  color: rgba(51, 49, 49, 0.925);
-  font-size: 0.9rem;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575.8px) {
@@ -724,6 +724,10 @@ footer ul li a {
     padding: 0.3rem 0 0 1.2rem;
   }
 
+  .logo-flex p {
+    margin-right: 70%;
+  }
+
   .sub-description > p:nth-child(even) {
     font-size: 0.9rem;
   }
@@ -758,10 +762,6 @@ footer ul li a {
 
   .logo-flex {
     flex-direction: column;
-  }
-
-  .logo-flex p {
-    margin-right: 70%;
   }
 
   .news-logo-box {
