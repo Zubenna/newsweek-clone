@@ -59,6 +59,10 @@ main {
   margin-top: 1rem;
 }
 
+.right-box1 a {
+  font-size: 0.9rem;
+}
+
 .right-button {
   margin-top: 3rem;
   text-align: right;
@@ -120,6 +124,31 @@ main {
   width: 92%;
   display: flex;
   justify-content: space-evenly;
+}
+
+sub-description a,
+.newsletter-sign a {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.sign-up a {
+  text-decoration: none;
+}
+
+.right-box2 a,
+.img-right-body2 a,
+.text-box-3 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+.img-box2-body a,
+.card h5 a,
+.right-box1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 ul.menu-content {
@@ -196,13 +225,6 @@ ul.menu-content a {
   color: rgb(255, 0, 0);
 }
 
-.card h5 a,
-.img-box2-body a,
-.right-box1 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-
 .debate-authour h6:hover,
 .debate-authour a:hover,
 .latest-news-box3:hover,
@@ -224,8 +246,37 @@ ul.menu-content a {
   color: rgb(6, 30, 238);
 }
 
-.card h5 a:hover,
+.right-box1 a:hover,
+.text-box-3 a:hover,
+.title-4 a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.sign-up-box a:first-child {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+}
+
+.sign-up-box a:last-child,
+.card .float-comfort {
+  color: rgba(0, 0, 0, 0.932);
+}
+
+.card .topic-text,
+.full-button {
+  font-size: 1.25rem;
+}
+
+.sub-description a:hover,
+footer ul li a:hover {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+}
+
 .img-box2-body a:hover,
+.card h5 a:hover,
 .card .topic-text:hover,
 .card .float-comfort:hover {
   text-decoration: underline;
@@ -273,18 +324,18 @@ ul.menu-content a {
   width: 7rem;
 }
 
+.new-york,
+.nature,
+.animals {
+  width: 5rem;
+}
+
 .pan-hero:hover,
 .new-york:hover,
 .nature:hover,
 .animals:hover {
   background-color: rgb(41, 61, 61);
   color: rgb(194, 214, 214);
-}
-
-.new-york,
-.nature,
-.animals {
-  width: 5rem;
 }
 
 .inner-box2 {
@@ -301,16 +352,6 @@ ul.menu-content a {
   display: grid;
   grid-template-columns: 0.7fr 2fr;
   grid-column-gap: 0.6rem;
-}
-
-.right-box1 a:hover,
-.text-box-3 a:hover,
-.title-4 a:hover {
-  color: rgb(255, 0, 0);
-}
-
-.right-box1 a {
-  font-size: 0.9rem;
 }
 
 .right-box1 {
@@ -349,14 +390,6 @@ ul.menu-content a {
   border-radius: 50%;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-}
-
-.right-box2 a,
-.img-right-body2 a,
-.text-box-3 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: 0.9rem;
 }
 
 .img-right-body2 {
@@ -417,10 +450,6 @@ ul.menu-content a {
   line-height: 1rem;
 }
 
-.sign-up a {
-  text-decoration: none;
-}
-
 .sign-up-box {
   display: flex;
   flex-direction: column;
@@ -429,18 +458,6 @@ ul.menu-content a {
 .demarcation {
   display: flex;
   justify-content: center;
-}
-
-.sign-up-box a:first-child {
-  width: 6rem;
-  height: 2rem;
-  background-color: rgba(0, 0, 0, 0.541);
-  color: rgb(255, 255, 255);
-}
-
-.sign-up-box a:last-child,
-.card .float-comfort {
-  color: rgba(0, 0, 0, 0.932);
 }
 
 .row {
@@ -468,11 +485,6 @@ ul.menu-content a {
 
 .card .article-topic:hover {
   text-decoration: none;
-}
-
-.card .topic-text,
-.full-button {
-  font-size: 1.25rem;
 }
 
 .text img {
@@ -538,18 +550,6 @@ ul.menu-content a {
 
 .news-letter-img img {
   height: 18rem;;
-}
-
-.sub-description a,
-.newsletter-sign a {
-  background-color: rgb(255, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-.sub-description a:hover,
-footer ul li a:hover {
-  text-decoration: none;
-  color: rgb(7, 6, 6);
 }
 
 .subscribe-title,
