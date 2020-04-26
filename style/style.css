@@ -48,9 +48,9 @@ main {
   display: inline-block;
 }
 
- .site-logo {
-   width: 7rem;
-   height: 5rem;
+.site-logo {
+  width: 7rem;
+  height: 5rem;
 }
 
 .site-logo img {
@@ -68,13 +68,13 @@ main {
 .right-button .subscribe-btn {
   font-size: 1rem;
   background-color: rgb(255, 255, 255);
-  color:rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
   text-decoration: none;
 }
 
 .right-button .sign-in-menu {
-color:  rgb(255, 255, 255);
-text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .navbar-nav {
@@ -99,7 +99,7 @@ text-decoration: none;
   top: 0.4rem;
 }
 
-.article-group-nine > a 
+.article-group-nine > a,
 .card .article-topic,
 .article-group-four > a,
 .article-group-five > a,
@@ -136,10 +136,10 @@ ul .menu-content a {
 }
 
 .menu-content p {
-   color: rgba(107, 107, 103, 0.966);
+  color: rgba(107, 107, 103, 0.966);
 }
 
-.menu-content i{
+.menu-content i {
   font-size: 0.6rem;
 }
 
@@ -157,7 +157,7 @@ ul .menu-content a {
 }
 
 .no-padding {
- padding: 0;
+  padding: 0;
 }
 
 .no-border {
@@ -221,7 +221,7 @@ ul .menu-content a {
 .img-box2-body a,
 .right-box1 a {
   text-decoration: none;
-  color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
 .card h5 a:hover,
@@ -233,9 +233,9 @@ ul .menu-content a {
 }
 
 .inner-container-one {
- display: grid;
- grid-template-columns: repeat(3, 0.4fr);
- grid-column-gap: 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+  grid-column-gap: 0.6rem;
 }
 
 .inner-box1 h5 {
@@ -278,7 +278,7 @@ ul .menu-content a {
 .nature:hover,
 .animals:hover {
   background-color: rgb(41, 61, 61);
-  color:  rgb(194, 214, 214);
+  color: rgb(194, 214, 214);
 }
 
 .new-york,
@@ -334,21 +334,21 @@ ul .menu-content a {
 
 .debate-authour {
   display: grid;
-  grid-template-columns:70% 30% ;
+  grid-template-columns:70% 30%;
 }
 
 .debate-call span {
-top: 30%;
-left: 30%
+  top: 30%;
+  left: 30%;
 }
 
 .debate-call {
-margin: 2rem auto;
-width: 3rem;
-height: 3rem;
-border-radius: 50%;
-background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
+  margin: 2rem auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .right-box2 a,
@@ -370,7 +370,7 @@ color: rgb(255, 255, 255);
 .red-border {
   border-top: 0.3rem solid rgb(255, 0, 0);
 }
- 
+
 .img3-box img {
   max-width: 80%;
   height: auto;
@@ -390,6 +390,7 @@ color: rgb(255, 255, 255);
 .btm-border {
   border-bottom: 0.1rem solid rgba(202, 198, 198, 0.575);
 }
+
 .sign-up {
   height: 10rem;
   width: 90%;
@@ -530,7 +531,7 @@ color: rgb(255, 255, 255);
 }
 
 .news-mag-2 {
-  top:13%;
+  top: 13%;
   left: 40%;
   z-index: 2;
 }
@@ -647,8 +648,8 @@ footer ul li a {
   }
 
   .right-button {
-  margin-top: 1rem;
-  text-align: left;
+    margin-top: 1rem;
+    text-align: left;
   }
 
   .left-col-1,
@@ -684,9 +685,9 @@ footer ul li a {
   }
 
   .site-logo {
-     height: 3.4rem;
-     width: 7rem;
-     padding: 0 0.2rem;
+    height: 3.4rem;
+    width: 7rem;
+    padding: 0 0.2rem;
   }
 
   .site-logo img {
@@ -777,13 +778,13 @@ footer ul li a {
   }
 
   .no-displayxs {
-      display: none;
+    display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.8px) {
 
- .top-menu {
+  .top-menu {
     height: 3rem;
     position: relative;
     z-index: 3;
@@ -798,7 +799,7 @@ footer ul li a {
     margin-top: 10rem;
   }
 
-   nav {
+  nav {
     height: 3rem;
   }
 
@@ -806,7 +807,7 @@ footer ul li a {
     margin-left: 23%;
   }
 
-   .weather-icon img {
+  .weather-icon img {
     position: relative;
     width: 5%;
     bottom: 0.5rem;
@@ -837,7 +838,7 @@ footer ul li a {
   .site-logo img {
     position: absolute;
     bottom: 4.2rem;
-    left:0.4rem;
+    left: 0.4rem;
   }
 
   .nav-item {
@@ -874,68 +875,68 @@ footer ul li a {
     width: 50%;
   }
 
- .center-img {
+  .center-img {
     width: 40%;
     margin-left: 24%;
   }
 
- .news-mag-2 {
+  .news-mag-2 {
     top: 3rem;
   }
 
- .sub-pic-box {
+  .sub-pic-box {
     text-align: center;
     height: 30rem;
   }
- 
- .sub-description a {
+  
+  .sub-description a {
     margin-left: 2rem;
   }
 
- .sub-description > p {
+  .sub-description > p {
     padding-left: 2rem;
   }
 
- .newsletter-pic-box {
+  .newsletter-pic-box {
     min-height: 22rem;
   }
 
- .sub-pic-box,
- .newsletter-pic-box {
+  .sub-pic-box,
+  .newsletter-pic-box {
     display: flex;
     flex-direction: column;
   }
 
- .newsletter-box {
+  .newsletter-box {
     margin-top: 2rem;
   }
 
- .news-letter-img img {
+  .news-letter-img img {
     width: 100%;
     height: 10rem;
   }
- .newsletter-sign {
+  .newsletter-sign {
     text-align: center;
     height: 2rem;
   }
 
- .newsweek-social {
+  .newsweek-social {
     margin-top: 38rem;
   }
 
- .logo-flex {
+  .logo-flex {
     flex-direction: column;
   }
 
- .logo-flex p {
+  .logo-flex p {
     margin-right: 74%;
   }
 
- .social-icon-box {
+  .social-icon-box {
     grid-template-columns: 1fr;
   }
 
- .social-icon {
+  .social-icon {
     margin-left: 1rem;
     margin-bottom: 0.5rem;
   }
@@ -943,7 +944,7 @@ footer ul li a {
 
 @media only screen and (min-width: 768px) and (max-width: 991.8px) {
 
- .top-menu {
+  .top-menu {
     height: 3.8rem;
     position: relative;
     z-index: 4;
@@ -1012,7 +1013,7 @@ footer ul li a {
   .site-logo img {
     position: absolute;
     bottom: 3.7rem;
-    left:0.3rem;
+    left: 0.3rem;
   }
 
   .menu-content p {
@@ -1092,7 +1093,7 @@ footer ul li a {
     margin-left: 0.6rem;
   }
 
- .newsletter-pic-box {
+  .newsletter-pic-box {
     display: grid;
     grid-template-columns: 1fr 2.3fr;
   }
@@ -1101,7 +1102,7 @@ footer ul li a {
     margin-top: 2rem;
   }
 
- .news-letter-img img {
+  .news-letter-img img {
     width: 100%;
     height: 12rem;
   }
@@ -1110,7 +1111,7 @@ footer ul li a {
     margin-top: 16rem;
   }
 
- .social-icon-box {
+  .social-icon-box {
     display: flex;
     justify-content: space-between;
   }
@@ -1119,10 +1120,3 @@ footer ul li a {
     display: none;
   }
 }
-
-
-
-
-
-
-
