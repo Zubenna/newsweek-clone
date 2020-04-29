@@ -9,6 +9,10 @@ body {
   height: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .top-menu {
   background-color: rgb(255, 0, 0);
   height: 6rem;
@@ -1202,16 +1206,14 @@ footer ul li {
     max-width: 83rem;
     height: auto;
     position: relative;
-    left: 40rem;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
   }
 
   .top-menu {
-    position: sticky;
     top: 0;
-    width: 83rem;
-    left: 40rem;
-    margin: 0 auto;
+    left: 18.5rem;
+    max-width: 83rem;
   }
 
   html {
@@ -1224,11 +1226,11 @@ footer ul li {
   }
 
   .rectangle {
-    right: 71.5rem;
+    right: 18.5rem;
   }
 
   .triangle {
-    right: 75.5rem;
+    right: 22.5rem;
   }
 
   .left-col-1,
