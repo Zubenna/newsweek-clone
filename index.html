@@ -1,19 +1,1128 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Newsweek-clone</title>
   </head>
-  <body>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<body>
+  <header>
+      <div class="menu-box" id="page-menu">
+          <div class="row top-menu position-fixed">
+            <div class="icon-box col-lg-4 col-xl-4 no-displayxs">
+                 <a href="#" class="weather-icon d-flex position-relative no-displayxs display-in-sm">
+                   <img src="https://g.newsweek.com/img/weather/29.png" alt="weather icon" class="img-fluid">
+                   <p>&nbsp;&nbsp;<span class="icon-degree">30°</span> <span class="no-display-s display-in-sm country">Lagos, NG </span><i class='fas fa-angle-right no-display-s display-in-sm'></i></p>
+                 </a>
+                 <p class="no-display-s no-display-in-md">Mon, Apr 13, 2020</p>  
+            </div>
+            <div class="site-logo col-lg-4 col-xl-4">
+                 <a href="#"><img src="images/newsweeklogo.png" class="img-fluid" alt="site logo"></a>
+            </div>
+            <div class="right-button col-lg-4 col-xl-4">
+               <a href="#" class="sign-in-menu font-weight-bold pr-4">SIGN IN</a><a href="#" class="font-weight-bold p-1 subscribe-btn">SUBSCRIBE<i class='fas fa-angle-right ml-2'></i></a>
+            </div>
+           </div>
+           <div class="shape d-flex float-right">
+             <div class="triangle no-displayxs no-display-s position-fixed no-display-in-md"></div>
+             <div class="rectangle no-displayxs no-display-s position-fixed no-display-in-md"></div>
+           </div>
+           <div class="position-relative search-bg no-displayxs no-display-s no-display-in-md">
+            <p class="m-0 position-relative menu-search"> Search <i class="fa fa-search"></i></p>
+           </div>
+       <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler position-fixed" type="button" data-toggle="#" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-content">
+               <ul class="navbar-nav position-relative menu-content">
+                   <li class="nav-item active mt-2 bold-color">
+                     <a class="nav-link bold-color" href="#">U.S.</a>
+                   </li>
+                   <li class="nav-item mt-2 bold-color">
+                    <a class="nav-link" href="#">World</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Business</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Tech & Science</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Culture</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Newsgeek</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Sports</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Health</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">The Debate</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Vantage</a>
+                   </li>
+                   <li class="nav-item mt-2">
+                    <a class="nav-link" href="#">Weather</a>
+                   </li>
+                </ul>
+             </div>
+        </nav>
+    </div>
+</header>`  
+<main class="position-relative">
+<article class="container-fluid article-group-one">
+  <div class="row">
+    <div class="left-col-1 col-12 col-md-6 col-lg-3">
+      <p class="text-muted">FEATURED STORIES</p>
+        <div class="card no-border card-index">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">U.S.</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title lead"><a href="#">New York Governor Cuomo Says He'd Defy Trump Ordering Him to Reopen State</a></h5>
+              <p class="card-text text-muted">If Trump ordering him to reopen meant endangering the public health of his state, Cuomo said there'd be a constitutional challenge that would go to the courts.</p>
+            </div>
+        </div>
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a2.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">HEALTH</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title lead"><a href="#">Human Trials of Two Coronavirus Vaccines Start in China</a></h5>
+              <p class="card-text text-muted">There is currently no vaccine to prevent COVID-19.</p>
+            </div>
+        </div>
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a3.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">WORLD</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title lead"><a href="#">North Korea Fires Suspected Cruise Missiles for First Time Since 2017</a></h5>
+              <p class="card-text text-muted">The rogue state has maintained regular weapons tests this year, despite concerns over coronavirus and ongoing talks with the U.S..</p>
+            </div>
+        </div>
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a4.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">TECH & SCIENCE</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title lead"><a href="#">How Supercomputers Are Being Used to Win the Fight Against Coronavirus</a></h5>
+              <p class="card-text text-muted">Powerful computers capable of ingesting and analyzing vast amounts of raw data are helping to map, track and analyze COVID-19 as the novel coronavirus continues to spread globally.</p>
+            </div>
+        </div>
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a5.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">U.S.</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title lead"><a href="#">Trump Admin to Spend $15.5 Billion on Aid for Farmers: Report</a></h5>
+              <p class="card-text text-muted">It was reported that a little more than $9 billion of aid would come from funding provided in the $2 trillion coronavirus relief package.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a6.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title lead"><a href="#">Weathering the Perfect Storm</a></h5>
+              <p class="card-text text-muted">COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.</p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="#"><img src="images/image-a7.png" class="card-img-top" alt="Image-one"></a>
+              <div class="card-body">
+                <h5 class="card-title lead"><a href="#">World's Best Hospitals 2020</a></h5>
+                <p class="card-text text-muted">Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries</p>
+              </div>
+        </div>
+        <div class="card">
+            <div class="button-container">
+              <a href="#"><img src="images/image-a8.jpg" class="card-img-top" alt="Image-one"></a>
+              <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title lead"><a href="#">Who Leads the Field in Dependency Treatment in 2020?</a></h5>
+              <p class="card-text text-muted">When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
+            </div>
+        </div>                             
+      </div> 
+    <div class="center-col-1 col-12 col-md-6 col-lg-6">
+      <p class="text-muted">TOP STORY</p>
+        <div class="card no-border text-sticky">
+          <div class="button-container">
+            <a href="#"><img src="images/image-a9.jpg" class="card-img-top" alt="Image"></a>
+            <a href="#" class="pad-tab button-tab">NEWS</a>
+          </div>
+          <div class="card-body no-padding">
+            <h5 class="card-title"><a href="#">Bush and Obama Let China Control WHO, Increasing Risk of Pandemics</a></h5>
+            <p class="card-text text-muted">Trump is halting U.S. funding of WHO after previous administrations' "benign neglect" policy allowed Beijing to mislead the organization, with deadly consequences..</p>
+          </div>
+        </div>
+      <hr>
+       <div>
+          <div class="img-box2 text-box-inner pad-float">
+            <a href="#"><img src="images/image-a16b.jpg" class="img-fluid mr-3 mb-2" alt="image"></a>
+          </div>
+          <div class="img-box2-body">
+            <h6 class=""><a href="#" class="font-weight-bold">Chinese Carrier Sails into Pacific, Media Mock U.S. Navy's COVID-19 Woes</a></h6>
+            <p class="text-muted">"As the most powerful military force in the world, with the highest level of combat readiness, the U.S. military's failure to contain the virus has been disappointing," Peking University Center for Maritime Strategy Studies director Hu Bo wrote.</p>
+          </div>
+      </div>
+      <div class="card-box1 no-display">
+        <a href="#" class="text-muted">HEROES OF THE PANDEMIC</a>
+          <div class="inner-container-one">
+            <div class="card no-border inner-box1">
+              <div class="button-container">
+                 <a href="#"><img src="images/image-a10.jpg" class="card-img-top" alt="Image"></a>
+                 <a href="#" class="pan-hero button-tab">Pandemic Hero</a>
+              </div>
+              <div class="card-body no-padding">
+                <h5 class="card-title"><a href="#">Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis</a></h5>
+                <p class="card-text text-muted">"We all have to help each other," Matthew Fermin, owner of East Harlem restaurant Santiago's Beer Garden, told Newsweek.</p>
+              </div>
+          </div>
+          <div class="card no-border inner-box1">
+              <div class="button-container">
+                <a href="#"><img src="images/image-a11.jpg" class="card-img-top" alt="Image"></a>
+                <a href="#" class="pan-hero button-tab">Pandemic Hero</a>
+             </div>
+             <div class="card-body no-padding">
+                <h5 class="card-title"><a href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a></h5>
+                <p class="card-text text-muted">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
+             </div>
+          </div>
+          <div class="card no-border inner-box1">
+             <div class="button-container">
+                <a href="#"><img src="images/image-a12.jpg" class="card-img-top" alt="Image"></a>
+                <a href="#" class="pan-hero button-tab">Pandemic Hero</a>
+             </div>
+             <div class="card-body no-padding">
+               <h5 class="card-title"><a href="#">Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</a></h5>
+               <p class="card-text text-muted">"I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="card-box1">
+         <a href="#" class="text-muted">CULTURE & TRAVEL</a>
+          <div class="inner-container-one">
+            <div class="card no-border inner-box1">
+              <div class="button-container">
+                <a href="#"><img src="images/image-a13.jpg" class="card-img-top" alt="Image"></a>
+                <a href="#" class="new-york button-tab">New York</a>
+              </div>
+            <div class="card-body no-padding">
+               <h5 class="card-title"><a href="#">The Relief of Uncertainty, Muses One New Yorker</a></h5>
+               <p class="card-text text-muted">In these pestilent days of being a New York City denizen during the age of COVID-19, one travel writer muses on what we can learn from the uncertainty of reality.</p>
+            </div>
+        </div>
+        <div class="card no-border inner-box1">
+          <div class="button-container">
+              <a href="#"><img src="images/image-a14.jpg" class="card-img-top" alt="Image"></a>
+              <a href="#" class="nature button-tab">Nature</a>
+          </div>
+          <div class="card-body no-padding">
+              <h5 class="card-title"><a href="#">Marvel at These 10 Freaks of Nature</a></h5>
+               <p class="card-text text-muted">The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+          </div>
+        </div>
+        <div class="card no-border inner-box1">
+          <div class="button-container">
+             <a href="#"><img src="images/image-a15.jpg" class="card-img-top" alt="Image"></a>
+             <a href="#" class="animals button-tab">Animals</a>
+          </div>
+          <div class="card-body no-padding">
+             <h5 class="card-title"><a href="#">How Wild, Domesticated and Zoo Animals are Managing COVID-19</a></h5>
+             <p class="card-text text-muted">Does one infected tiger in New York mean animal owners—and lovers—should be worried about their own furry friends?</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="card-box2">
+      <p class="text-muted">MORE STORIES</p>
+        <div class="inner-box2">
+           <div class="img-box2">
+             <a href="#"><img src="images/image-a17.jpg" class="img-fluid" alt="image"></a>
+           </div>
+           <div class="img-box2-body">
+             <h6 class=""><a href="#" class="font-weight-bold">How Wild, Domesticated and Zoo Animals are Managing COVID-19</a></h6>
+             <p class="text-muted">The U.S. has reported almost three times as many COVID-19 cases as there are in Spain and Italy, which each have around 170,000 confirmed infections.</p>
+           </div>
+        </div>
+        <div class="inner-box2">
+           <div class="img-box2">
+              <a href="#"><img src="images/image-a18.jpg" class="img-fluid" alt="image"></a>
+           </div>
+          <div class="img-box2-body">
+            <h6 class=""><a href="#" class="font-weight-bold">Florida Gov to Announce 'Stage Two' Coronavirus Response Task Force Team</a></h6>
+            <p class="text-muted">Ron DeSantis has previously been criticized for his slow response to the outbreak in the state.</p>
+          </div>
+        </div>
+      <div class="inner-box2">
+         <div class="img-box2">
+             <a href="#"><img src="images/image-a19.jpg" class="img-fluid" alt="image"></a>
+         </div>
+         <div class="img-box2-body">
+            <h6 class=""><a href="#" class="font-weight-bold">Air Conditioning Units Appear to Spread Coronavirus</a></h6>
+            <p class="text-muted">Opening windows and letting natural light into buildings, including our homes, may prevent the spread of the coronavirus</p>
+         </div>
+      </div>
+      <div class="inner-box2">
+          <div class="img-box2">
+             <a href="#"><img src="images/image-a20.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box2-body">
+            <h6 class=""><a href="#" class="font-weight-bold">Putting Trump's Name on Stimulus Checks Is 'Abuse of Government Resources'</a></h6>
+            <p class="text-muted">The U.S. Treasury reportedly requested that the IRS add President Donald Trump's name to the paper stimulus checks due to be mailed out to American households.</p>
+          </div>
+      </div>
+      <div class="inner-box2">
+          <div class="img-box2">
+            <a href="#"><img src="images/image-a21.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box2-body">
+            <h6 class=""><a href="#" class="font-weight-bold">More Than 100,000 in the U.S. Hospitalized After COVID-19 Infection</a></h6>
+            <p class="text-muted">Nearly half of hospitalizations were reported in New York, while New Jersey California, Illinois, and Michigan have also seen thousands of hospital admissions.</p>
+          </div>
+      </div>
+      <div class="inner-box2">
+          <div class="img-box2">
+             <a href="#"><img src="images/image-a22.jpg" class="img-fluid" alt="image"></a>
+           </div>
+           <div class="img-box2-body">
+              <h6 class=""><a href="#" class="font-weight-bold">Court 'Backs Down' From Texas Abortion Ban, Allowing Access to Oral Pills</a></h6>
+              <p class="text-muted">Abortion rights advocates have repeatedly said medical abortion should not be considered a "procedure."</p>
+           </div>
+      </div>
+      <div class="inner-box2">
+           <div class="img-box2">
+             <a href="#"><img src="images/image-a23.jpg" class="img-fluid" alt="image"></a>
+           </div>
+           <div class="img-box2-body">
+             <h6 class=""><a href="#" class="font-weight-bold">Wisconsin Protesters Enter State Park Demanding They Be Reopened to Public</a></h6>
+            <p class="text-muted">Governor Tony Evans closed dozens of parks in the state following "unprecedented crowds, litter, vandalism" which were seen.</p>
+           </div>
+      </div>
+      <div class="inner-box2">
+        <div class="img-box2">
+          <a href="#"><img src="images/image-a24.jpg" class="img-fluid" alt="image"></a>
+        </div>
+        <div class="img-box2-body">
+          <h6 class=""><a href="#" class="font-weight-bold">U.S. COVID-19 Death Toll Passes 25,000, Hundreds Die in New York Every Day</a></h6>
+          <p class="text-muted">COVID-19, the illness caused by the novel coronavirus, is now the deadliest disease in the U.S., killing more people per day than cancer or heart disease..</p>
+        </div>
+      </div>
+      <div class="inner-box2">
+        <div class="img-box2">
+          <a href="#"><img src="images/image-a25.jpg" class="img-fluid" alt="image"></a>
+        </div>
+        <div class="img-box2-body">
+          <h6 class=""><a href="#" class="font-weight-bold">Dr. Fauci Couldn't Be Fired Without Cause Under Proposed Bill</a></h6>
+          <p class="text-muted">The bill would only permit presidents to sack National Institutes of Health directors over malfeasance, negligence of office, and incapacity.</p>
+        </div>
+      </div>
+      <div class="inner-box2">
+        <div class="img-box2">
+          <a href="#"><img src="images/image-a26.jpg" class="img-fluid" alt="image"></a>
+        </div>
+        <div class="img-box2-body">
+          <h6 class=""><a href="#" class="font-weight-bold">Barack Obama Endorses Joe Biden For President in 2020</a></h6>
+          <p class="text-muted">After more than a year of silence on the matter, Obama endorsed former Vice President Joe Biden for president in 2020..</p>
+        </div>
+      </div>
+      <div class="inner-box2">
+        <div class="img-box2">
+          <a href="#"><img src="images/image-a27.jpg" class="img-fluid" alt="image"></a>
+        </div>
+        <div class="img-box2-body">
+          <h6 class=""><a href="#" class="font-weight-bold">Loss of Taste and Smell Should Be Screening Measure for COVID-19</a></h6>
+          <p class="text-muted">Common symptoms of the COVID-19 disease include fever, cough, and shortness of breath..</p>
+        </div>
+      </div>
+
+     </div>
+  </div>
+ <div class="right-col-1 col-12 col-md-12 col-lg-3">
+     <div class="right-col-box">
+          <p class="text-muted">OPINION</p>
+        <div class="right-box1">
+            <div class="right-col-img1">
+              <a href="#"><img src="images/image-a28.png" class="img-fluid" alt="image"></a>
+            </div>
+            <div class="img-box3-body">
+              <h6 class=""><a href="#" class="font-weight-bold">Bernie Offered Us the Future. Why Did He Fail—and What Did We Forfeit?</a></h6>
+              <p class="text-muted">TBY MOSHIK TEMKIN</p>
+            </div>
+        </div>
+        <div class="right-box1">
+            <div class="right-col-img1">
+              <a href="#"><img src="images/image-a29.png" class="img-fluid" alt="image"></a>
+            </div>
+            <div class="img-box3-body">
+              <h6 class=""><a href="#" class="font-weight-bold">Digital Worship May Create America's Next Spiritual Awakening</a></h6>
+              <p class="text-muted">BY GREG LAURIE</p>
+            </div>
+        </div>
+        <div class="right-box1">
+            <div class="right-col-img1">
+              <a href="#"><img src="images/image-a30.png" class="img-fluid" alt="image"></a>
+            </div>
+            <div class="img-box3-body">
+              <h6 class=""><a href="#" class="font-weight-bold">China Hawks Are Calling Coronavirus Their Smoking Gun. Don't Buy It</a></h6>
+              <p class="text-muted">BY KERRY BROWN</p>
+            </div>
+        </div>
+        <div class="right-box1">
+            <div class="right-col-img1">
+              <a href="#"><img src="images/image-a31.png" class="img-fluid" alt="image"></a>
+            </div>
+            <div class="img-box3-body">
+              <h6 class=""><a href="#" class="font-weight-bold">For Black and Brown Businesses, the Next Relief Bill Could Be a Lifeline—or an Assault</a></h6>
+              <p class="text-muted">BY MICHAEL BLAKE AND NATHALIE MOLINA NIÑO</p>
+            </div>
+      </div>
+  <div class="right-col-box2">
+        <a href="#" class="text-muted debate">THE DEBATE</a>
+            <div class="right-box2 red-border">
+              <div class="right-col-img2">
+                <a href="#"><img src="images/image-a32.jpg" class="img-fluid" alt="image"></a>
+              </div>
+              <div class="img-right-body1">
+                <h6 class=""><a href="#" class="font-weight-bold">Trump Is Empowering States—As He Should. Now It's Time to Put America to Work</a></h6>
+              </div>
+            </div>
+            <hr>
+            <div class="debate-authour">
+              <div class="">
+              <p class="font-weight-bold"><span class="text-muted">BY </span>KELLI WARD</p>
+               </div>
+              <div class="img3-box">
+               <a href="#" ><img src="images/image-a33.png" alt="image" class="position-relative"></a>
+              </div>
+            </div>
+            <div class="debate-call"><span class="position-relative">VS</span></div>
+            <div class="right-box2 blue-border debate">
+              <div class="right-col-img2">
+                <a href="#"><img src="images/image-a34.jpg" alt="image" class="img-fluid"></a>
+              </div>
+              <div class="img-right-body1">
+                <h6 class=""><a href="#" class="font-weight-bold">Save the Economy but Leave the States to Save Lives? Trump's 'Federalism' Is a Charade</a></h6>
+              </div>
+            </div>
+            <hr>
+            <div class="debate-authour">
+              <div class="">
+              <p class="font-weight-bold "><span class="text-muted align-middle">BY</span><a href="#" class="align-middle"> TOM ROGERS</a></p>
+              </div>
+              <div class="img3-box">
+               <a href="#" ><img src="images/image-a35.png" alt="image" class="position-relative"></a>
+             </div>
+        </div>
+  </div>
+  <div class="right-col-box3">
+      <a href="#" class="text-muted latest-news-box3">LATEST NEWS</a>
+          <div class="right-box3 pt-2 mb-2 pb-2 btm-border">
+              <div class="right-img-box3 btm-border">
+                <a href="#"><img src="images/image-a36.jpg" class="img-fluid" alt="image"></a>
+              </div>
+              <div class="text-box-3">
+                <a href="#" class="font-weight-bold">MJ Skipped White House Visit to Play Golf with Man Who Was Later Convicted</a>
+              </div>
+          </div>
+          <div class="right-box3 mb-2 pb-2 btm-border">
+              <div class="right-img-box3">
+                <a href="#"><img src="images/image-a37.jpg" class="img-fluid" alt="image"></a>
+              </div>
+              <div class="text-box-3">
+                <a href="#" class="font-weight-bold">Michael Che Pays Rent for Everyone in the Building his Grandmother Lived In</a>
+              </div>
+          </div>
+          <div class="right-box3 mb-2 pb-2 btm-border">
+              <div class="right-img-box3">
+                <a href="#"><img src="images/image-a38.jpg" class="img-fluid" alt="image"></a>
+              </div>
+              <div class="text-box-3">
+                <a href="#" class="font-weight-bold">Who Stars in 'Mrs. America' and What The Characters Look Like In Real Life</a>
+              </div>
+         </div>
+         <div class="right-box3 mb-2 pb-2 btm-border">
+             <div class="right-img-box3">
+               <a href="#"><img src="images/image-a39.jpg" class="img-fluid" alt="image"></a>
+             </div>
+             <div class="text-box-3">
+               <a href="#" class="font-weight-bold">Governors are Key to Reopening the Econom</a>
+             </div>
+        </div>
+        <div class="right-box3 mb-2 pb-2">
+            <div class="right-img-box3">
+               <a href="#"><img src="images/image-a40.jpg" class="img-fluid" alt="image"></a>
+            </div>
+            <div class="text-box-3">
+               <a href="#" class="font-weight-bold">Police Warn of Coronavirus Text Scam Containing Fake Alert About Infection</a>
+            </div>
+       </div>
+  </div>
+<div class="right-col-box4">
+       <div class="card col-md-6 mx-auto col-lg-12 no-padding card-right">
+          <div class="button-container">
+             <a href="#"><img src="images/image-a41.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+             <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+          </div>
+          <div class="card-body reduce-text">
+             <h5 class="card-title font-weight-bold"><a href="#">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
+             <p class="card-text text-muted">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+          </div>
+      </div>
+      <div class="col-md-4 mx-auto col-lg-12 p-3 my-3 sign-up">
+        <div class="logo-box">
+          <div class="n-logo">
+          <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="brand-logo">
+          </div>
+          <p class="font-weight-bold">SIGN UP FOR OUR NEWSLETTER</p>
+        </div>
+        <div class="sign-up-box">
+          <a href="#" class="pt-1 pl-1 font-weight-bold">SIGN UP<i class='fas fa-angle-right ml-2'></i></a>
+          <a href="#" class="mt-2">Update your preferences»</a>
+        </div>
+      </div>
+      <div class="card col-md-6 mx-auto col-lg-12 no-padding card-right">
+        <div class="button-container">
+           <a href="#"><img src="images/image-a42.jpg" class="card-img-top" alt="Image-one"></a>
+           <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+        </div>
+        <div class="card-body reduce-text">
+           <h5 class="card-title font-weight-bold"><a href="#">What Qualities Make a Leading University?</a></h5>
+           <p class="card-text text-muted">A Leading University has to have a track record of producing well qualified, gifted and employable candidates. Which schools earn the accolade?</p>
+        </div>
+      </div>
+      <div class="card col-md-6 mx-auto col-lg-6 col-lg-12 no-padding card-right">
+        <div class="button-container">
+           <a href="#"><img src="images/image-a43.jpg" class="card-img-top" alt="Image-one"></a>
+           <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+        </div>
+        <div class="card-body reduce-text">
+           <h5 class="card-title font-weight-bold"><a href="#">How Can a Good Business Education Benefit You?</a></h5>
+           <p class="card-text text-muted">Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+        </div>
+      </div>
+      <div class="card col-md-6 mx-auto col-lg-6 col-lg-12 no-padding card-right">
+        <div class="button-container">
+           <a href="#"><img src="images/image-a44.jpg" class="card-img-top" alt="Image-one"></a>
+           <a href="#" class="pad-tab tab-insight button-tab">SPONSORED INSIGHT</a>
+        </div>
+        <div class="card-body reduce-text">
+           <h5 class="card-title font-weight-bold"><a href="#">What Is Your Accounting And Finance Team Missing?</a></h5>
+           <p class="card-text text-muted">Have you ever wanted more from your accounting and finance professionals? These three letters can help.</p>
+        </div>
+       </div>      
+      </div>
+    </div>
+  </div>
+ </div>
+</article>
+<section class="container-fluid">
+  <h3 class="invisible text-center">Section Demarcation</h3>
+    <div class="row">
+     <div class="col-12 demarcation">
+        <div class="n-logo">
+        <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="brand-logo">
+        </div>
+        <p class="font-weight-bold ml-2">IN THE MAGAZINE</p>
+     </div>
+    </div>
+     <hr class="p-0"> 
+</section>
+<article class="article-group-two container-fluid">
+    <div class="row">
+       <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+             <a href="#" class="pad-tab button-tab">APRIL 24 ISSUE</a>
+          </div>
+             <a href="#" class="full-button font-weight-bold text-center pt-1">SEE ALL FEATURES<i class='fas fa-angle-right ml-2'></i></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b2.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">COVER</span><a href="#" class="ml-3 article-topic font-weight-bold">NEWS</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b3.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">PERISCOPE</span><a href="#" class="ml-3 article-topic font-weight-bold">POLITICS</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Trump Campaign Shelves 2020 Ad Blitz Touting Economy Because of Coronavirus</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b4.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">HORIZONS</span><a href="#" class="ml-3 article-topic font-weight-bold"> SPORTS</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Americans May Be Missing Out On $8.5 Billion In March Madness Bets</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b5.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">DOWNTIME</span><a href="#" class="ml-3 article-topic font-weight-bold"> CULTURE</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Stars from Chrissy Teigen to Chance the Rapper Are Betting On Quibi to Change How You Watch Everything</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b6.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">DOWNTIME</span><a href="#" class="ml-3 article-topic font-weight-bold">CULTURE</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Marvel at These 10 Freaks of Nature</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border text">
+          <div class="button-container">
+             <a href="#"><img src="images/image-b7.jpg" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+          </div>
+             <h6 class="mt-4"><span class="font-weight-bold p-2">DOWNTIME</span><a href="#" class="ml-3 article-topic font-weight-bold">CULTURE</a></h6>
+             <a href="#" class="font-weight-bold topic-text mt-2">Uzo Aduba as Trailblazer Shirley Chisholm in the Hulu Series 'Mrs. America'</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3">
+        <div class="card no-border">
+          <div class="button-container in-focus-img">
+             <a href="#"><img src="https://d.newsweek.com/en/full/1579838/floating-comfort.webp?w=480&h=320&q=90&f=258c9c9847cf6679679c9950f21ca7db" class="card-img-top img-fluid mt-4" alt="Image-one"></a>
+             <a href="#" class="pad-tab button-tab in-focus">IN FOCUS</a>
+          </div>
+             <a href="#" class="font-weight-bold text-center pt-1 mt-4 float-comfort">FLOATING COMFORT</a>
+        </div>
+      </div>
+    </div>
+</article>
+<section class="container-fluid">
+  <h3 class="invisible text-center">Section Demarcation</h3>
+    <div class="row">
+     <div class="col-12 demarcation">
+        <div class="n-logo">
+        <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="brand-logo">
+        </div>
+        <p class="font-weight-bold ml-2">EDITOR'S PICK</p>
+     </div>
+    </div>
+     <hr class="p-0"> 
+</section>
+<article class="container-fluid article-group-three">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+          <div class="card no-border">
+              <div class="button-container">
+                <a href="#"><img src="images/image-c1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+                <a href="#" class="pad-tab button-tab">ESSAYS</a>
+              </div>
+              <div class="card-body no-padding">
+                <h5 class="card-title font-weight-bold"><a href="#">'I Themed 30 Nights for My Kids During Lockdown'</a></h5>
+                <p class="card-text text-muted">It's tough when your kids can't leave the house. But you can bring a beach, an English pub, a race track and a camping site indoors..</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-c2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+              <a href="#" class="pad-tab button-tab">HEALTH</a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Nelfinavir and Cepharanthine Show Potential as COVID-19 Treatment in Lab</a></h5>
+              <p class="card-text text-muted">Used together, the HIV drug and anti-inflammatory may help stop disease progression and reduce transmission.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card no-border">
+          <div class="button-container">
+            <a href="#"><img src="images/image-c3.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            <a href="#" class="pad-tab button-tab">HEALTH</a>
+          </div>
+          <div class="card-body no-padding">
+            <h5 class="card-title font-weight-bold"><a href="#">Claim That Coronavirus Came from a Lab in China Completely Unfounded</a></h5>
+            <p class="card-text text-muted">Adam Lauring of University of Michigan Medical School told Newsweek: "This claim is a conspiracy theory and it is not supported at all by the available data."</p>
+          </div>
+      </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="card no-border">
+        <div class="button-container">
+          <a href="#"><img src="images/image-c4.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+          <a href="#" class="pad-tab button-tab">U.S.</a>
+        </div>
+        <div class="card-body no-padding">
+          <h5 class="card-title font-weight-bold"><a href="#">Dr. Fauci Says You Can Meet a Date 'If You're Willing to Take a Risk"</a></h5>
+          <p class="card-text text-muted">The leading infectious disease expert also said meeting a date amid the COVID-19 pandemic was a "relative risk."</p>
+        </div>
+    </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <div class="card no-border">
+      <div class="button-container">
+        <a href="#"><img src="images/image-c5.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+        <a href="#" class="pad-tab button-tab">TECH & SCIENCE</a>
+      </div>
+      <div class="card-body no-padding">
+        <h5 class="card-title font-weight-bold"><a href="#">Greenland Ice Sheet Lost a Record Level of Ice in 2019, Study Finds</a></h5>
+        <p class="card-text text-muted">Atmospheric conditions contributed to the highest levels of ice loss since records began in 1948.</p>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <div class="card no-border">
+      <div class="button-container">
+        <a href="#"><img src="images/image-c6.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+        <a href="#" class="pad-tab button-tab">U.S.</a>
+      </div>
+      <div class="card-body no-padding">
+        <h5 class="card-title font-weight-bold"><a href="#">New Coronavirus Test Could Produce Results Six Times Faster Than CDC's</a></h5>
+        <p class="card-text text-muted">Testing has been a wrench in America's response to the new coronavirus and researchers say there is an "urgent public health need for rapid diagnostic tests."</p>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <div class="card no-border">
+      <div class="button-container">
+        <a href="#"><img src="images/image-c7.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+        <a href="#" class="pad-tab button-tab">NEWS</a>
+      </div>
+      <div class="card-body no-padding">
+        <h5 class="card-title font-weight-bold"><a href="#">Study Shows 34 Percent Increase in Use of Anxiety Meds Since Pandemic Began</a></h5>
+        <p class="card-text text-muted">Pharmacy benefit management company Express Scripts says use of anti-anxiety medications increased more than 34 percent from mid-February to mid-March.</p>
+      </div>
+  </div>
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <div class="card no-border">
+      <div class="button-container">
+        <a href="#"><img src="images/image-c8.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+        <a href="#" class="pad-tab button-tab">WORLD</a>
+      </div>
+      <div class="card-body no-padding">
+        <h5 class="card-title font-weight-bold"><a href="#">Why Are People of Color Hit Harder by Coronavirus Than White People?</a></h5>
+        <p class="card-text text-muted">Although people from Black, Asian and minority ethnic backgrounds form 13 percent of the U.K. population, they make up 35 percent of all patients in intensive care.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</article>
+<article class="container-fluid article-group-four">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">U.S.</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-d1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Prison Inmate Released Amid Coronavirus Concerns Charged With Murder</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-d2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">660 Crew Members on USS Theodore Roosevelt Test Positive for Coronavirus</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-d3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">65 Percent of Latinos Face Economic Hardship From Coronavirus Outbreak:Poll</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-d4.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">Michigan GOP Cranks Up Pressure on State Governor to Ease Lockdown</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 pt-3">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-d5.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">Fired Employee Accused of Deleting Shipment Records Related to PPE</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<article class="container-fluid article-group-five">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">World</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-e1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Iran Minister Praises Country's Nursers, Shares Photo of Brazilian Worker</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-e2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">CDC to Investigate Guatemala's Claims of Dozens of Deportees With COVID-19</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-e3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">What Can You Do To Improve Your Mental Health During Lockdown?</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-e4.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">London Buses Now Effectively Free Amid Coronavirus Lockdown</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 pt-3">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-e5.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">State Department Calls on China to Speed up Coronavirus Equipment Exports</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<article class="container-fluid article-group-six">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">Business</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-f1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Global Economy Will Shrink by 3 Percent in 2020, IMF Forecasts</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-f2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">China Would Consider Debt Relief for Africa Over Coronavirus</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-f3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">NFL 'Virtual Offseason' Would Allow Teams to Send Apple Watches To Players</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-f4.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">Lara Logan Recounts Gang Rape Ahead of New Series on Liberal Media Bias</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 pt-3">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-f5.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">GOP Congressman Warns Young Americans Developing 'Bailout Mentality'</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<article class="container-fluid article-group-seven">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">Tech & Science</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-g1b.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Great White Sharks Could Go Extinct in Next 100 Years</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-g1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Some Coastal U.S. Cities Could Experience Flooding Every Day by 2100</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-g5s.png" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">U.S. Space Force Is Building Weapons to Block Russian, Chinese Satellites</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-g3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">NASA Astronaut Talks Fixing Hubble Ahead of Telescope's 30th Anniversary</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 pt-3">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-g4.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">Facebook Groups Spreading 5G Coronavirus Conspiracies Call for Mast Attacks</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<article class="container-fluid article-group-eight">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">Culture</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-h1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">20 Netflix Shows We Want to See Return ASAP</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-h2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Long-Distance Romances Are a Lot More Complicated During a Pandemic</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 ">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-h3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">'True Detective' Creator Believes Batman Could Defeat God</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1">
+            <a href="#"><img src="images/image-h4.png" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">SDCC 2020 Canceled</a></h6>
+          </div>
+      </div>
+      <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-h5.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">Dad Calls Police To Attend His Kid's Birthday Party</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<article class="container-fluid article-group-nine">
+  <hr>
+  <a href="#" class="font-weight-bold ml-3">Sports</a>
+   <div class="row">
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-i1.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">Gianna Bryant Among the Honorary WNBA Draft Picks</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <div class="card no-border">
+            <div class="button-container">
+              <a href="#"><img src="images/image-i2.jpg" class="card-img-top img-fluid" alt="Image-one"></a>
+            </div>
+            <div class="card-body no-padding">
+              <h5 class="card-title font-weight-bold"><a href="#">'Friday Night SmackDown' Results (4/17): Money in the Bank Lineup Announcedc</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 ">
+       <div class="right-box4">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-i3.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">NFL Mock Draft on Monday Will Look Like Fantasy Football on Steroids</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 top-bottom-border">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-i4.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+            <h6><a href="#" class="font-weight-bold">WWE Changes Filming Schedule to Have More Pre-Taped Shows</a></h6>
+          </div>
+      </div>
+      <div class="right-box4 pt-3">
+          <div class="right-col-img1 imgbox-resize">
+            <a href="#"><img src="images/image-i5.jpg" class="img-fluid" alt="image"></a>
+          </div>
+          <div class="img-box3-body title-4">
+          <h6><a href="#" class="font-weight-bold">Lilian Garcia Remembers Howard Finkel and How He Helped Her Succeed</a></h6>
+          </div>
+     </div>
+    </div>
+  </div>
+</article>
+<section class="container-fluid subscibe">
+  <h3 class="invisible">Newsletter and Subscribe section</h3>
+   <hr>
+     <div class="row">
+       <div class="col-12 col-lg-8">
+         <p class="font-weight-bold subscribe-title">SUBSCRIBE</p>
+          <div class="sub-pic-box">
+              <div class="position-relative center-img">
+                 <img src="images/image-j1.jpg" alt="newsweek magagazine" class="news-mag-1 ml-4 mt-4 img-fluid">
+                 <img src="images/image-j2.jpg" alt="newsweek magagazine" class="news-mag-2 img-fluid position-absolute">
+              </div>
+              <div class="sub-description pt-5 pr-2 pl-1">
+                <p class="font-weight-bold">In-depth Stories You Don't See Elsewhere <br>About Topics You Want to Read!</p>
+                <p class="text-muted">All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+                <a href="#" class="font-weight-bold p-2">SUBSCRIBE<i class='fas fa-angle-right ml-2'></i></a>
+              </div>
+          </div>
+       </div>
+       <div class="col-12 col-lg-4 newsletter-box">
+        <p class="font-weight-bold newsletter-title">NEWSLETTER</p>
+         <div class="newsletter-pic-box border">
+             <div class="news-letter-img">
+             </div>
+             <div class="newsletter-sign pt-5 pr-4 pl-1">
+               <p class="font-weight-bold m-0">The Starting 5</p>
+               <p class="text-muted pb-3">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+               <a href="#" class="font-weight-bold p-2">SIGN UP<i class='fas fa-angle-right ml-2'></i></a>
+             </div>
+         </div>
+      </div>
+     </div>
+</section>
+<section class="container-fluid newsweek-social">
+  <h3 class="invisible">Social Media Icons</h3>
+    <div class="social-icon-box top-bottom-border">
+      <div class="d-flex logo-flex">
+        <div class="news-logo-box mt-4">
+        <img src="images/image-k1-log.png" alt="Newsweek logo" class="img-fluid ml-3">
+        </div>
+        <p class="align-self-end mt-2 ml-4">&copy;2020 NEWSWEEK</p>
+      </div>
+      <div class="social-icon text-lg-right mt-4">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-tumblr"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+</section>
+<footer class="container-fluid">
+      <ul class="ml-3">
+         <li>Editions:</li>
+         <li class="border-right"><a href="#">U.S. Edition</a></li>
+         <li class="border-right"><a href="#">日本</a></li>
+         <li class="border-right"><a href="#">Pakistan</a></li>
+         <li class="border-right"><a href="#">Polska</a></li>
+         <li><a href="#">România</a></li>
+         <li class="border-right"><a href="#">About Us</a></li>
+         <li class="border-right"><a href="#">Corrections</a></li>
+         <li class="border-right"><a href="#">Contact Us</a></li>
+         <li class="border-right"><a href="#">Editorial Guidelines</a></li>
+         <li class="border-right"><a href="#">Advertise</a></li>
+         <li class="border-right"><a href="#">Copyright</a></li>
+         <li class="border-right"><a href="#">Terms & Conditions</a></li>
+         <li class="border-right"><a href="#">Privacy Policy</a></li>
+         <li class="border-right"><a href="#">Cookie Policy</a></li>
+         <li class="border-right"><a href="#">Terms of Sale</a></li>
+         <li class="border-right"><a href="#">Archive</a></li>
+         <li class="border-right"><a href="#">Announcements</a></li>
+         <li><a href="#">Consent preferences</a></li>
+      </ul>
+</footer>
+</main>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

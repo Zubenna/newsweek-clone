@@ -1,0 +1,1238 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.top-menu {
+  background-color: rgb(255, 0, 0);
+  height: 6rem;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  margin: 0;
+}
+
+main {
+  top: 2rem;
+}
+
+.icon-box {
+  padding: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+
+footer ul li a {
+  color: rgba(51, 49, 49, 0.925);
+  font-size: 0.9rem;
+}
+
+.sub-description a,
+.newsletter-sign a {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.icon-box a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.icon-box p {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding-top: 0.3rem;
+}
+
+.weather-icon img {
+  width: 8%;
+  height: 8%;
+  display: inline-block;
+}
+
+.site-logo {
+  width: 7rem;
+  height: 5rem;
+}
+
+.site-logo img {
+  height: 85%;
+  margin-top: 1rem;
+}
+
+.right-box1 a {
+  font-size: 0.9rem;
+}
+
+.right-button {
+  margin-top: 3rem;
+  text-align: right;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.right-button .subscribe-btn {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.right-button .sign-in-menu {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar-nav {
+  height: 3rem;
+  top: 3.5rem;
+}
+
+.rectangle {
+  height: 0.8rem;
+  width: 4rem;
+  background-color: rgb(255, 0, 0);
+  top: 6rem;
+  right: 0;
+  z-index: 5;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 0.8rem solid rgb(255, 0, 0);
+  border-left: 0.8rem solid transparent;
+  top: 6rem;
+  right: 4rem;
+  z-index: 5;
+}
+
+.menu-search {
+  left: 86%;
+  top: 6.4rem;
+}
+
+.article-group-nine > a,
+.card .article-topic,
+.article-group-four > a,
+.article-group-five > a,
+.article-group-six > a,
+.article-group-seven > a,
+.article-group-eight > a {
+  color: rgb(255, 0, 0);
+}
+
+.debate-authour h6,
+.debate-authour a,
+.card .topic-text,
+.title-4 a {
+  color: rgb(0, 0, 0);
+}
+
+.menu-content {
+  width: 87%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-up a {
+  text-decoration: none;
+}
+
+.right-box2 a,
+.img-right-body2 a,
+.text-box-3 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+}
+
+.social-icon a {
+  text-decoration: none;
+  color: rgba(34, 33, 33, 0.685);
+}
+
+.right-box1 a,
+.img-box2-body a,
+.card h5 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul.menu-content {
+  font-size: 1.2vw;
+  line-height: 0.6rem;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: 0.02rem solid rgba(56, 53, 53, 0.603);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-left: 0.01rem solid rgba(56, 53, 53, 0.603);
+  color: rgb(15, 15, 15);
+}
+
+.menu-content i {
+  font-size: 0.6rem;
+}
+
+.article-group-one,
+.article-group-two,
+.article-group-three,
+.article-group-four,
+.article-group-five,
+.article-group-six,
+.article-group-seven,
+.article-group-eight,
+.article-group-nine {
+  padding: 0 1.5rem;
+  margin-top: 0.6rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.container-xl {
+  padding: 0;
+}
+
+.no-border {
+  border: none;
+}
+
+.left-col-1 p,
+.card {
+  margin: 0.2rem 0 1rem 0;
+  position: relative;
+}
+
+.left-col-1,
+.center-col-1,
+.right-col-1 {
+  max-height: 187.5rem;
+  overflow-y: scroll;
+}
+
+.left-col-1::-webkit-scrollbar,
+.center-col-1::-webkit-scrollbar,
+.right-col-1::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.button-container {
+  position: relative;
+  width: 100%;
+}
+
+.card img,
+.test-x img {
+  width: 100%;
+  height: auto;
+}
+
+.button-tab {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 0.4rem;
+}
+
+footer ul li a:hover,
+.sub-description a:hover {
+  text-decoration: none;
+  color: rgb(7, 6, 6);
+}
+
+.button-tab:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.debate-authour h6:hover,
+.debate-authour a:hover,
+.latest-news-box3:hover,
+.article-group-four > a:hover,
+.title-4 a:hover,
+.article-group-five > a:hover,
+.article-group-six > a:hover,
+.article-group-seven > a:hover,
+.article-group-eight > a:hover,
+.article-group-nine > a:hover {
+  text-decoration: none;
+}
+
+.right-box1 a:hover,
+.text-box-3 a:hover,
+.title-4 a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.sign-up-box a:first-child {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: rgb(255, 255, 255);
+}
+
+.sign-up-box a:last-child,
+.card .float-comfort {
+  color: rgba(0, 0, 0, 0.932);
+}
+
+.social-icon a:hover {
+  color: rgba(17, 20, 206, 0.932);
+}
+
+.social-icon a:nth-child(1) {
+  background-color: rgba(202, 198, 198, 0.575);
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}
+
+.card .topic-text,
+.full-button {
+  font-size: 1.25rem;
+}
+
+.img-box2-body a:hover,
+.card h5 a:hover,
+.card .topic-text:hover,
+.card .float-comfort:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 0, 0);
+}
+
+.inner-box1 h5 a:hover,
+.card-box1 .text-muted:hover {
+  text-decoration: none;
+}
+
+.pad-tab {
+  padding: 0.3rem 0.4rem 0 0.4rem;
+}
+
+.card .tab-insight {
+  color: rgb(6, 30, 238);
+}
+
+.inner-container-one {
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+  grid-column-gap: 0.6rem;
+}
+
+.inner-box1 h5 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.inner-box1 {
+  max-width: 11rem;
+}
+
+.inner-box1 p {
+  font-size: 1rem;
+}
+
+.text-box-inner {
+  float: left;
+}
+
+.pan-hero,
+.new-york,
+.nature,
+.animals {
+  background-color: rgb(194, 214, 214);
+  color: rgb(0, 0, 0);
+  font-size: 0.8rem;
+}
+
+.pan-hero {
+  width: 7rem;
+}
+
+.new-york,
+.nature,
+.animals {
+  width: 5rem;
+}
+
+.pan-hero:hover,
+.new-york:hover,
+.nature:hover,
+.animals:hover {
+  background-color: rgb(41, 61, 61);
+  color: rgb(194, 214, 214);
+}
+
+.inner-box2 {
+  display: grid;
+  grid-template-columns: 0.4fr 3fr;
+  grid-column-gap: 1rem;
+  border-top: 0.2rem solid rgb(240, 245, 245);
+  padding-top: 1rem;
+  min-height: 9rem;
+}
+
+.right-box1,
+.right-box2 {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr;
+  grid-column-gap: 0.6rem;
+}
+
+.right-box1 {
+  min-height: 7rem;
+  border-top: 0.2rem solid rgb(240, 245, 245);
+  padding-top: 1rem;
+}
+
+.img-box3-body p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.199);
+}
+
+.right-col-box2 {
+  margin-top: 2.5rem;
+}
+
+.right-col-box2 hr {
+  border-bottom: 0.1rem solid rgba(179, 178, 182, 0.966);
+}
+
+.debate-authour {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.debate-call span {
+  top: 30%;
+  left: 30%;
+}
+
+.debate-call {
+  margin: 2rem auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.img-right-body2 {
+  padding: 0.5rem;
+}
+
+.blue-border {
+  border-top: 0.3rem solid rgba(25, 0, 255, 0.966);
+}
+
+.red-border {
+  border-top: 0.3rem solid rgb(255, 0, 0);
+}
+
+.img3-box img {
+  max-width: 80%;
+  height: auto;
+  bottom: 1.8rem;
+}
+
+.right-col-box2 .debate:hover {
+  text-decoration: none;
+}
+
+.right-box3 {
+  display: grid;
+  grid-template-columns: 0.8fr 2.2fr;
+  grid-column-gap: 0.8rem;
+}
+
+.btm-border {
+  border-bottom: 0.1rem solid rgba(202, 198, 198, 0.575);
+}
+
+.sign-up {
+  height: 10rem;
+  width: 90%;
+  background-color: rgba(202, 198, 198, 0.575);
+}
+
+.n-logo {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(255, 0, 0);
+}
+
+.n-logo img {
+  width: 100%;
+}
+
+.logo-box {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.logo-box p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.sign-up-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.demarcation {
+  display: flex;
+  justify-content: center;
+}
+
+.full-button {
+  width: 100%;
+  height: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.full-button:hover {
+  text-decoration: none;
+  background-color: rgba(197, 192, 192, 0.911);
+  color: rgb(0, 0, 0);
+}
+
+.card span,
+.card .in-focus {
+  background-color: rgb(255, 0, 0);
+  color: rgb(245, 245, 220);
+}
+
+.card .article-topic:hover {
+  text-decoration: none;
+}
+
+.in-focus-img img {
+  height: 17.5rem;
+}
+
+.right-box4 {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-column-gap: 0.4rem;
+  min-height: 7rem;
+}
+
+.top-bottom-border {
+  border-bottom: 0.2rem solid rgb(240, 245, 245);
+  border-top: 0.2rem solid rgb(240, 245, 245);
+}
+
+.subscibe {
+  height: 25rem;
+}
+
+.sub-pic-box {
+  display: grid;
+  grid-template-columns: 0.5fr 0.4fr;
+  height: 18rem;
+  background-color: rgb(240, 245, 245);
+}
+
+.sub-description > p,
+.newsletter-sign > p {
+  font-size: 1.2rem;
+}
+
+.sub-description > p {
+  line-height: 1.6rem;
+}
+
+.social-icon-box p {
+  font-size: 0.8rem;
+}
+
+.sub-description p:nth-child(2),
+.newsletter-sign p:nth-child(2) {
+  font-size: 0.9rem;
+}
+
+.newsletter-pic-box {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-column-gap: 1rem;
+}
+
+.news-mag-2 {
+  top: 13%;
+  left: 40%;
+}
+
+.news-letter-img {
+  background: url("../images/image-j3.png");
+  min-height: 18rem;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.subscribe-title,
+.newsletter-title {
+  color: rgb(255, 0, 0);
+}
+
+.fa {
+  padding: 0.6rem;
+  font-size: 1.3rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.newsweek-social {
+  min-height: 10rem;
+}
+
+.news-logo-box {
+  width: 16.4rem;
+  height: 4rem;
+}
+
+.social-icon-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.border-right {
+  border-right: 0.2rem solid rgba(202, 198, 198);
+  line-height: 1rem;
+}
+
+footer ul li {
+  display: inline-block;
+  line-height: 0.7rem;
+  padding: 0 0.4rem;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .top-menu {
+    height: 3.6rem;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    position: absolute;
+    z-index: 1;
+  }
+
+  main {
+    position: relative;
+    top: 1rem;
+  }
+
+  .navbar-light {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 80%;
+    background-color: transparent;
+    height: 3.4rem;
+  }
+
+  .navbar-toggler > span {
+    width: 1.87rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: block;
+    height: 0.25rem;
+    background-color: #fb9a94;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-collapse {
+    margin-top: 11rem;
+  }
+
+  .nav-item,
+  .menu-content p {
+    background-color: rgb(243, 236, 243);
+  }
+
+  .menu-content a {
+    font-size: 0.7rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .right-button {
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .right-button .subscribe-btn {
+    font-size: 0.6rem;
+  }
+
+  .sign-in-menu {
+    font-size: 0.7rem;
+  }
+
+  .left-col-1,
+  .center-col-1,
+  .right-col-1 {
+    margin-top: 2rem;
+  }
+
+  .pan-hero {
+    font-size: 0.5rem;
+    width: 4.5rem;
+    padding: 0;
+  }
+
+  .right-box1,
+  .right-box3,
+  .right-box4 {
+    display: flex;
+  }
+
+  .img-box3-body,
+  .text-box-3 {
+    margin-left: 0.6rem;
+  }
+
+  .sign-up {
+    width: 70%;
+    font-size: 0.8rem;
+  }
+
+  .title-4 h6 {
+    font: 0.3rem;
+    margin-left: 0.8rem;
+  }
+
+  .site-logo {
+    height: 3.4rem;
+    width: 7rem;
+    padding: 0 0.2rem;
+  }
+
+  .site-logo img {
+    margin-top: 1.2rem;
+    height: auto;
+    width: 100%;
+  }
+
+  .center-img {
+    width: 58%;
+  }
+
+  .news-mag-1,
+  .news-mag-2 {
+    top: 3rem;
+    width: 100%;
+  }
+
+  .sub-pic-box {
+    height: 40rem;
+  }
+
+  .sub-description a {
+    margin-left: 2rem;
+  }
+
+  .sub-description {
+    text-align: center;
+  }
+
+  .sub-description > p {
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0.3rem 0 0 1.2rem;
+  }
+
+  .logo-flex p {
+    margin-right: 70%;
+  }
+
+  .sub-description > p:nth-child(even) {
+    font-size: 0.9rem;
+  }
+
+  .newsletter-pic-box {
+    min-height: 31rem;
+  }
+
+  .sub-pic-box,
+  .newsletter-pic-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-box {
+    margin-top: 2rem;
+  }
+
+  .newsletter-sign {
+    text-align: center;
+    height: 2rem;
+  }
+
+  .newsweek-social {
+    margin-top: 57rem;
+  }
+
+  .logo-flex {
+    flex-direction: column;
+  }
+
+  .news-logo-box {
+    margin: 0;
+  }
+
+  .social-icon-box {
+    grid-template-columns: 1fr;
+  }
+
+  .social-icon {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .no-displayxs {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .top-menu {
+    height: 3rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  main {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 10rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  .weather-icon {
+    margin-left: 23%;
+  }
+
+  .weather-icon img {
+    position: relative;
+    width: 5%;
+    bottom: 0.5rem;
+  }
+
+  .icon-degree {
+    position: relative;
+    font-size: 0.8rem;
+    bottom: 0.9rem;
+  }
+
+  .no-display-s {
+    display: none;
+  }
+
+  .navbar-light {
+    z-index: 4;
+    top: 0;
+    position: absolute;
+    left: 85%;
+  }
+
+  .site-logo {
+    width: 8rem;
+    height: 2rem;
+  }
+
+  .site-logo img {
+    position: absolute;
+    bottom: 4.2rem;
+    left: 0.4rem;
+  }
+
+  .navbar-toggler > span {
+    width: 1.87rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: block;
+    height: 0.25rem;
+    background-color: #fb9a94;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .nav-item {
+    background-color: rgb(243, 236, 243);
+    width: 5.8rem;
+  }
+
+  .menu-content a {
+    font-size: 0.7rem;
+  }
+
+  .sign-in-menu {
+    font-size: 0.8rem;
+  }
+
+  .right-button {
+    position: relative;
+    right: 15%;
+    bottom: 8.6rem;
+  }
+
+  .right-box1,
+  .right-box3,
+  .right-box4 {
+    display: flex;
+  }
+
+  .img-box3-body,
+  .text-box-3 {
+    margin-left: 1rem;
+  }
+
+  .sign-up {
+    width: 50%;
+  }
+
+  .center-img {
+    width: 40%;
+    margin-left: 24%;
+  }
+
+  .news-mag-2 {
+    top: 3rem;
+  }
+
+  .sub-pic-box {
+    text-align: center;
+    height: 30rem;
+  }
+
+  .sub-description a {
+    margin-left: 2rem;
+  }
+
+  .sub-description > p {
+    padding-left: 2rem;
+  }
+
+  .newsletter-pic-box {
+    min-height: 31rem;
+  }
+
+  .sub-pic-box,
+  .newsletter-pic-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-box {
+    margin-top: 2rem;
+  }
+
+  .news-letter-img img {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .newsletter-sign {
+    text-align: center;
+    height: 2rem;
+  }
+
+  .newsweek-social {
+    margin-top: 48rem;
+  }
+
+  .logo-flex {
+    flex-direction: column;
+  }
+
+  .logo-flex p {
+    margin-right: 74%;
+  }
+
+  .social-icon-box {
+    grid-template-columns: 1fr;
+  }
+
+  .social-icon {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .top-menu {
+    height: 3.8rem;
+    position: relative;
+    z-index: 4;
+  }
+
+  main {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 10.5rem;
+  }
+
+  .navbar-toggler > span {
+    width: 1.87rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: block;
+    height: 0.25rem;
+    background-color: #fb9a94;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .weather-icon {
+    margin-left: 25%;
+  }
+
+  .weather-icon img {
+    position: absolute;
+    bottom: 0;
+    width: 5.5%;
+    height: auto;
+    right: 98%;
+  }
+
+  .icon-degree {
+    position: absolute;
+    bottom: 0.4rem;
+    right: 94%;
+    font-size: 0.8rem;
+  }
+
+  .icon-box .country,
+  .icon-box i {
+    position: relative;
+    font-size: 0.9rem;
+  }
+
+  .icon-box .country {
+    left: 25%;
+    bottom: 0.3rem;
+  }
+
+  .icon-box i {
+    left: 25%;
+    bottom: 0.3rem;
+  }
+
+  .navbar-light {
+    z-index: 5;
+    top: 0.3rem;
+    position: absolute;
+    left: 88%;
+  }
+
+  .site-logo {
+    width: 10rem;
+    height: 2.1rem;
+  }
+
+  .site-logo img {
+    position: absolute;
+    bottom: 3.7rem;
+    left: 0.3rem;
+  }
+
+  .menu-content p {
+    margin-top: 1.6rem;
+    background-color: rgb(243, 236, 243);
+    font-size: 0.8rem;
+  }
+
+  .nav-item {
+    background-color: rgb(243, 236, 243);
+    padding: 0;
+    font-size: 0.7rem;
+  }
+
+  .right-button {
+    right: 10%;
+    bottom: 8.4rem;
+  }
+
+  .left-col-1,
+  .center-col-1,
+  .right-col-1 {
+    max-height: 187.5rem;
+    overflow-y: scroll;
+  }
+
+  .text h6 {
+    font-size: 1.5vw;
+  }
+
+  .left-col-1::-webkit-scrollbar,
+  .center-col-1::-webkit-scrollbar,
+  .right-col-1::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+  .full-button {
+    font-size: 1.6vw;
+  }
+
+  .img-box2 {
+    width: 8rem;
+    height: auto;
+  }
+
+  .pad-float {
+    margin-right: 0.7rem;
+  }
+
+  .right-box4,
+  .right-box3,
+  .right-box1,
+  .img-box3-body {
+    display: flex;
+  }
+
+  .title-4,
+  .text-box-3,
+  .img-box3-body,
+  .img-right-body1 {
+    margin-left: 0.6rem;
+  }
+
+  .img-box3-body {
+    flex-direction: column;
+  }
+
+  .img-box2 img,
+  .imgbox-resize img {
+    width: 100%;
+  }
+
+  .imgbox-resize {
+    width: 18rem;
+    height: auto;
+  }
+
+  .pan-hero {
+    font-size: 0.7rem;
+    width: 5.5rem;
+    padding: 0.2rem;
+  }
+
+  .sub-pic-box {
+    min-height: 20rem;
+  }
+
+  .sub-description {
+    margin-left: 0.6rem;
+  }
+
+  .newsletter-pic-box {
+    display: grid;
+    grid-template-columns: 1fr 2.3fr;
+  }
+
+  .newsletter-box {
+    margin-top: 2rem;
+  }
+
+  .news-letter-img img {
+    width: 100%;
+    height: 12rem;
+  }
+
+  .newsweek-social {
+    margin-top: 23rem;
+  }
+
+  .social-icon-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .no-display-in-md {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.8px) {
+  html {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1620px) {
+  body {
+    max-width: 83rem;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .top-menu {
+    top: 0;
+    left: 18.5rem;
+    max-width: 83rem;
+  }
+
+  html {
+    background-color: rgb(230, 222, 222);
+    overflow: scroll;
+  }
+
+  ul.menu-content {
+    font-size: 1vw;
+  }
+
+  .rectangle {
+    right: 18.5rem;
+  }
+
+  .triangle {
+    right: 22.5rem;
+  }
+}
