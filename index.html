@@ -11,41 +11,41 @@
   </head>
 <body>
   <header>
-      <div class="menu-box">
-          <div class="row top-menu">
-            <div class="icon-box col-lg-4 no-displayxs">
-                 <a href="#" class="weather-icon position-relative no-displayxs display-in-sm">
+      <div class="menu-box" id="page-menu">
+          <div class="row top-menu position-fixed">
+            <div class="icon-box col-lg-4 col-xl-4 no-displayxs">
+                 <a href="#" class="weather-icon d-flex position-relative no-displayxs display-in-sm">
                    <img src="https://g.newsweek.com/img/weather/29.png" alt="weather icon" class="img-fluid">
                    <p>&nbsp;&nbsp;<span class="icon-degree">30°</span> <span class="no-display-s display-in-sm country">Lagos, NG </span><i class='fas fa-angle-right no-display-s display-in-sm'></i></p>
                  </a>
                  <p class="no-display-s no-display-in-md">Mon, Apr 13, 2020</p>  
             </div>
-            <div class="site-logo col-lg-4">
-                 <a href="#"><img src="images/newsweeklogo.png" class="img-fluid" alt="site-logo"></a>
+            <div class="site-logo col-lg-4 col-xl-4">
+                 <a href="#"><img src="images/newsweeklogo.png" class="img-fluid" alt="site logo"></a>
             </div>
-            <div class="right-button col-lg-4">
+            <div class="right-button col-lg-4 col-xl-4">
                <a href="#" class="sign-in-menu font-weight-bold pr-4">SIGN IN</a><a href="#" class="font-weight-bold p-1 subscribe-btn">SUBSCRIBE<i class='fas fa-angle-right ml-2'></i></a>
             </div>
            </div>
            <div class="shape d-flex float-right">
-             <div class="triangle no-displayxs no-display-s no-display-in-md"></div>
-             <div class="rectangle no-displayxs no-display-s no-display-in-md"></div>
+             <div class="triangle no-displayxs no-display-s position-fixed no-display-in-md"></div>
+             <div class="rectangle no-displayxs no-display-s position-fixed no-display-in-md"></div>
            </div>
-           <div class="position-relative no-displayxs no-display-s no-display-in-md">
-            <p class="m-0 position-absolute menu-search"> Search <i class="fa fa-search"></i></p>
+           <div class="position-relative search-bg no-displayxs no-display-s no-display-in-md">
+            <p class="m-0 position-relative menu-search"> Search <i class="fa fa-search"></i></p>
            </div>
        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="#" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation"> 
+            <button class="navbar-toggler position-fixed" type="button" data-toggle="#" data-target="#menu-content" aria-controls="menu-content" aria-expanded="false" aria-label="Toggle navigation"> 
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <div class="collapse navbar-collapse" id="menu-content">
-               <ul class="navbar-nav menu-content">
-                   <li class="nav-item active mt-2">
-                     <a class="nav-link" href="#">U.S.</a>
+               <ul class="navbar-nav position-relative menu-content">
+                   <li class="nav-item active mt-2 bold-color">
+                     <a class="nav-link bold-color" href="#">U.S.</a>
                    </li>
-                   <li class="nav-item mt-2">
+                   <li class="nav-item mt-2 bold-color">
                     <a class="nav-link" href="#">World</a>
                    </li>
                    <li class="nav-item mt-2">
@@ -80,7 +80,7 @@
         </nav>
     </div>
 </header>`  
-<main>
+<main class="position-relative">
 <article class="container-fluid article-group-one">
   <div class="row">
     <div class="left-col-1 col-12 col-md-6 col-lg-3">
@@ -970,7 +970,7 @@
         </div>
     </div>
     <div class="col-12 col-md-4 col-lg-4 ">
-       <div class="right-box4 pt-3">
+       <div class="right-box4">
           <div class="right-col-img1 imgbox-resize">
             <a href="#"><img src="images/image-h3.jpg" class="img-fluid" alt="image"></a>
           </div>
@@ -1072,9 +1072,9 @@
          <div class="newsletter-pic-box border">
              <div class="news-letter-img">
              </div>
-             <div class="newsletter-sign pt-4 pr-4 pl-1">
+             <div class="newsletter-sign pt-5 pr-4 pl-1">
                <p class="font-weight-bold m-0">The Starting 5</p>
-               <p class="text-muted">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+               <p class="text-muted pb-3">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
                <a href="#" class="font-weight-bold p-2">SIGN UP<i class='fas fa-angle-right ml-2'></i></a>
              </div>
          </div>

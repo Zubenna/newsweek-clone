@@ -37,9 +37,9 @@ This project is a clone of the Newsweek.com [newsweek.com](https://www.newsweek.
 - Open the index.html file in your favourite browser, and that's it!!!
 
 ## Author
-- Github: [@githubhandle](https://github.com/zubenna)
-- Twitter: [@twitterhandle](https://twitter.com/zubenna)
-- Linkedin: [@linkedin](https://linkedin.com/in/nnamdi-emelu-08b14340/)
+- Github: [Nnamdi Emelu](https://github.com/zubenna)
+- Twitter: [Nnamdi Emelu](https://twitter.com/zubenna)
+- Linkedin: [Nnamdi Emelu](https://linkedin.com/in/nnamdi-emelu-08b14340/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
