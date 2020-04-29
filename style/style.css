@@ -225,12 +225,11 @@ ul.menu-content {
   overflow-y: scroll;
 }
 
-::-webkit-scrollbar {
+.left-col-1::-webkit-scrollbar,
+.center-col-1::-webkit-scrollbar,
+.right-col-1::-webkit-scrollbar { 
   width: 0;
-}
-
-html {
-  overflow: scroll;
+  background: transparent;
 }
 
 .button-container {
@@ -1109,11 +1108,9 @@ footer ul li {
     font-size: 1.5vw;
   }
 
-  html {
-    overflow: scroll;
-  }
-
-  ::-webkit-scrollbar {
+  .left-col-1::-webkit-scrollbar,
+  .center-col-1::-webkit-scrollbar,
+  .right-col-1::-webkit-scrollbar { 
     width: 0;
     background: transparent;
   }
@@ -1201,6 +1198,12 @@ footer ul li {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199.8px) {
+  html {
+    overflow: hidden;
+  }
+}
+
 @media only screen and (min-width: 1620px) {
   body {
     max-width: 83rem;
@@ -1231,16 +1234,5 @@ footer ul li {
 
   .triangle {
     right: 22.5rem;
-  }
-
-  .left-col-1,
-  .center-col-1,
-  .right-col-1 {
-    max-height: 187.5rem;
-    overflow-y: scroll;
-  }
-
-  ::-webkit-scrollbar {
-    width: 0;
   }
 }
