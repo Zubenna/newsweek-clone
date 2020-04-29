@@ -25,7 +25,7 @@ This project is a clone of the Newsweek.com [newsweek.com](https://www.newsweek.
 - CSS Grid
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/Zubenna/newsweek-clone/tree/feature-branch) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/Zubenna/newsweek-clone/e2da84339bc99ba3d71b694a1393ee7fb206e24c/index.html) hosted on [githack](https://raw.githack.com)
 
 ## CDNs
 - https://fontawesome.com/icons
