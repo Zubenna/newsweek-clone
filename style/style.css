@@ -227,7 +227,7 @@ ul.menu-content {
 
 .left-col-1::-webkit-scrollbar,
 .center-col-1::-webkit-scrollbar,
-.right-col-1::-webkit-scrollbar { 
+.right-col-1::-webkit-scrollbar {
   width: 0;
   background: transparent;
 }
@@ -1110,7 +1110,7 @@ footer ul li {
 
   .left-col-1::-webkit-scrollbar,
   .center-col-1::-webkit-scrollbar,
-  .right-col-1::-webkit-scrollbar { 
+  .right-col-1::-webkit-scrollbar {
     width: 0;
     background: transparent;
   }
